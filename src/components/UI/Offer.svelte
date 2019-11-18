@@ -72,7 +72,7 @@
 
     h3 {
         text-align: center;
-        font-size: 5vw;
+        font-size: 3vw;
         margin: 15px 0;
     }
 
