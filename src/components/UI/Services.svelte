@@ -65,7 +65,11 @@
         }
         .reserved {
             font-size: 1.7rem !important;
-            padding: 0 1em;
+            padding: 0.8em 1em;
+        }
+        .grid-cont {
+            padding: 15px 0;
+            margin: 15px 0;
         }
     }
     .grid-cont {
