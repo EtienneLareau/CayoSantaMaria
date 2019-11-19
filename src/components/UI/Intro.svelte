@@ -24,7 +24,7 @@
 
     .beach {
         
-        background-image: url('/images/cayobeach.png');
+        background-image: url('/images/saute.jpeg');
         background-position: center ;
         background-repeat: no-repeat ;
         background-size: cover ;
@@ -33,10 +33,10 @@
 
     .cover {
         position: relative;
-        z-index: 5;
+        z-index: 1;
         width:100% ;
         height: 100% ;
-        background: rgba(8, 169, 197, 0.144) ;
+        /* background: #a7e9d4; */
     }
 
 </style>

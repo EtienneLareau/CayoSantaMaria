@@ -8,7 +8,13 @@
         width: 80% ;
         margin: 40px auto 0;
         padding: 150px 0 0px;
+        /* background: #70fad581 ; */
     }
+    article > p {
+        text-shadow: 1px 1px 3px rgba(243, 164, 7, 0.589);
+    }
+
+
     p {
         /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
         font-size: 1.6rem ;
@@ -43,6 +49,9 @@
     }
 
     @media only screen and (max-width:765px) {
+        article {
+            width:100%;
+        }
         .grid-block {
             display:block;
             grid-template-columns: 1fr ;
@@ -71,11 +80,17 @@
             padding: 15px 0;
             margin: 15px 0;
         }
+        h2 {
+        font-family: 'feltro-texture-3', sans-serif;
+        font-size: 2.2rem;
+        padding: 0 20px 10px;
+        text-align: center;
+        text-shadow: 2px 2px 5px rgba(204, 145, 34, 0.612);
+        }
     }
 
      @media only screen and (max-width:1115px) {
          .grid-block {
-
             grid-gap:20px;
             padding:0px;
             width:100%;
@@ -101,6 +116,13 @@
             padding: 15px 0;
             margin: 15px 15px;
         }
+        h2 {
+        font-family: 'feltro-texture-3', sans-serif;
+        font-size: 3.2rem;
+        padding: 0 20px;
+        margin-left:0;
+        text-shadow: 2px 2px 5px rgba(204, 145, 34, 0.612);
+    }
     }
 
 
@@ -111,7 +133,8 @@
     .grid-cont {
         /* background: rgba(152, 251, 152, 0.151); */
         text-align: left;
-        background: rgb(181, 234, 217);
+        /* background: rgb(181, 234, 217); */
+        background-color: #6afed7 ;
         margin:0 0 30px;
     }
 
@@ -138,13 +161,14 @@
 
     .green {
         width: 100%;
-        background: #a7e9d4;
+        /* background: #a7e9d4; */
+        background: #86fadb ;
         padding: 50px 0px;
     }
 
     .start {
         margin-top:-50px;
-        background-image: url('/images/cayobeach.png');
+        background-image: url('/images/coursLight.jpeg');
         background-position: center;
         background-repeat: no-repeat ;
         background-size: cover;

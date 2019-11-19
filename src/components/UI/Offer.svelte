@@ -7,7 +7,12 @@
     section {
         position: relative;
         width:100%;
-        background-color: rgb(167, 233, 212);
+        /* background-color: rgb(167, 233, 212); */
+        background: #86fadb ;
+        /* background-image: url('/images/decolle.jpeg');
+        background-position: left center ;
+        background-repeat: no-repeat ;
+        background-size: cover ; */
     }
 
     .back {
