@@ -6,6 +6,8 @@
 <style>
     section {
         position: relative;
+        max-width: 800px;
+        margin: 0 auto;
     }
 
     .resp-container {
@@ -21,36 +23,8 @@
         width: 100%;
         height: 100%;
         border: 0;
-        transform: scale(1.2);
     }
 
-    .banner {
-        position: absolute ;
-        left:50% ;
-        top :52%;
-        transform: translate(-50%, -50%);
-        z-index: 15;
-        text-align: center ;
-        color: rgb(255, 255, 255);
-        text-transform: uppercase ;  
-    }
-
-    img {
-        width: 16%;
-        margin-bottom: 1rem;
-    }
-    h1, p {
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    }
-
-    h1 {
-        font-size: 4vw;
-    }
-
-    p {
-        font-size: 2vw;
-        line-height: 0.4;
-    }
 
     .fallback {
         position: absolute;
@@ -64,7 +38,7 @@
 
     .ready {
         position: relative;
-        top:-200px;
+        
     }
 
     .cov {

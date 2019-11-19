@@ -41,7 +41,7 @@
 		 /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
 		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 		 font-size: 1.2em;
-		 text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.753);
+		 
 		 letter-spacing: 1.3px;
 		 
 	}
@@ -71,7 +71,7 @@
 	}
 
 	a:hover {
-		color: rgb(255, 74, 104);
+		color: rgb(255, 177, 190);
 	}
 
 	.bump {

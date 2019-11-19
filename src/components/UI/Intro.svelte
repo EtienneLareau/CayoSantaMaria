@@ -29,12 +29,20 @@
         background-repeat: no-repeat ;
         background-size: cover ;
         margin-top:-42px;
-        
+    }
+
+    .cover {
+        position: relative;
+        z-index: 5;
+        width:100% ;
+        height: 100% ;
+        background: rgba(8, 169, 197, 0.144) ;
     }
 
 </style>
 
     <div class="beach">
+        <div class="cover">
         <article>
             <h2>Valentin Club Perla Blanca</h2>
             <p>Bienvenue au <span style="font-family: 'feltro-texture-3', sans-serif;">premier voyage de kitefoil</span>  !
@@ -55,4 +63,5 @@
                 niveau de compétence.Le Valentin Perla Blanca est un lieu parfait pour apprendre et 
                 pratiquez le kitesurf.</p>
         </article>
+        </div>
     </div>
