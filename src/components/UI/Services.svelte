@@ -15,6 +15,7 @@
         font-family: 'battlefin', sans-serif;
         font-weight: 400;
         font-style: normal;
+        padding: 5px;
     }
 
     h2 {
@@ -26,7 +27,9 @@
 
     img {
         width:80px;
-        margin: 0 auto;
+        margin:20px 0 -10px;
+        float:left;
+        padding: 0px 15px;
     }
 
     .grid-block {
@@ -39,10 +42,43 @@
         margin: 0 auto;
     }
 
+    @media only screen and (max-width:725px) {
+        .grid-block {
+            display:block;
+            grid-template-columns: 1fr ;
+            grid-gap:0;
+            padding:0px;
+            width:100%;
+        }
+        p {
+            font-size:1.1rem;
+            padding: 0 1em;
+        }
+        img {
+            width:60px;
+            margin:0;
+            position: relative;
+            left:50%;
+            transform:translate(-50%,0%);
+            float:none;
+            padding: 0px 0px;
+        }
+        .reserved {
+            font-size: 1.7rem !important;
+            padding: 0 1em;
+        }
+    }
     .grid-cont {
         /* background: rgba(152, 251, 152, 0.151); */
         text-align: left;
+        background: rgb(181, 234, 217);
     }
+
+    /* .center {
+        position: relative;
+        left:50%;
+        transform: translate(-50%,0%);
+    } */
 
     .reserved {
         font-family: 'battlefin', sans-serif;
@@ -61,7 +97,7 @@
 
     .green {
         width: 100%;
-        background: rgb(167, 233, 212);
+        background: #a7e9d4;
         padding: 50px 0px;
     }
 
