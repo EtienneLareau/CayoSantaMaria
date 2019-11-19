@@ -42,7 +42,7 @@
         margin: 0 auto;
     }
 
-    @media only screen and (max-width:725px) {
+    @media only screen and (max-width:725px) and (orientation:landscape) {
         .grid-block {
             display:block;
             grid-template-columns: 1fr ;
