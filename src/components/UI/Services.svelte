@@ -76,7 +76,7 @@
      @media only screen and (max-width:1115px) {
          .grid-block {
 
-            grid-gap:0;
+            grid-gap:20px;
             padding:0px;
             width:100%;
         } 
@@ -99,7 +99,7 @@
         }
         .grid-cont {
             padding: 15px 0;
-            margin: 15px 20px;
+            margin: 15px 15px;
         }
     }
 
@@ -112,6 +112,7 @@
         /* background: rgba(152, 251, 152, 0.151); */
         text-align: left;
         background: rgb(181, 234, 217);
+        margin:0 0 30px;
     }
 
     /* .center {
@@ -179,10 +180,10 @@
             </div>
             <div class="grid-cont">
                 <img src="office-work-wireless.png" alt="">
-                <p>La sélection de votre siège est disponible au cout de 45$ (aller & retour)</p>
+                <p>La sélection de votre siège dans l'avion est disponible au cout de 45$ (aller & retour)</p>
             </div>
         </div>
-        <br><br>
+        
         <div class="grid-block">
             <div class="grid-cont">
                 <img src="show-hat-magician-1.png" alt="">
