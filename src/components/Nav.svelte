@@ -55,11 +55,16 @@
 		transition: color 0.2s ease ;
 		margin-left:-60px;
 		color:rgb(28, 28, 28);
-		font-size:8vw;
+		font-size:7vw;
 		font-family: 'battlefin', sans-serif;
         font-weight: 700;
 		font-style: normal;
-		
+	}
+
+	@media only screen and (orientation:landscape) {
+		a {
+			font-size:3rem;
+		}
 	}
 
 	a:hover {
@@ -94,10 +99,9 @@
 	}
 
 	.bars {
-		width:4em;
-		height:4px;
+		width:3em;
+		height:2px;
 		margin-bottom:12px;
-		
 		background: #86fadb;
 	}
 	#Nav {
@@ -121,7 +125,7 @@
 		z-index: 5500;
 		color:rgb(134, 126, 126);
 		background: #86fadb;
-		font-size: 60px;
+		font-size: 3em;
 		padding:30px 50px;
 		text-align:right;
 		font-family: 'battlefin', sans-serif;
