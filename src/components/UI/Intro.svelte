@@ -50,7 +50,7 @@
         <div class="cover">
         <article>
             <!-- <h2>Valentin Club Perla Blanca</h2> -->
-            <p><span style="font-size: 3.5rem;text-align:center;">Bienvenue au <br>premier voyage dédié au kitefoil !</span>
+            <p><span style="font-size: 3.5rem;text-align:center;">Bienvenue au<br>premier voyage dédié au kitefoil</span>
             <br><br>
                 En collaboration avec l’hôtel<span style="font-family: 'feltro-texture-3', sans-serif;">Valentin Perla Blanca</span>, nous vous proposons divers 
                 forfaits élaboré spécifiquement pour vous, selon votre budget 
