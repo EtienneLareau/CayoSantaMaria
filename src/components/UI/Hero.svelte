@@ -3,39 +3,20 @@
 </script>
 
 <style>
+     section {position: relative;}
 
     .container {
         width:100%;
-        height:95vh;
-        background: url('/images/beach.jpeg') right center no-repeat;
+        height:100vh;
+        background: url('/images/cayoCov.jpeg') right center no-repeat;
         background-size: cover ;
     }
 
-    section {
-        position: relative;
-    }
-
-    .resp-container {
-        position: relative;
-        overflow: hidden;
-        padding-top: 56.25%; /* This is 9th / 16th */
-    }
-
-    .resp-iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        border: 0;
-        transform: scale(1.2);
-    }
-
     .banner {
-        position: absolute ;
-        left:50% ;
-        bottom:5%;
-        transform: translate(-50%, -50%);
+        position: relative ;
+        top: 60% ;
+        left: 50% ;
+        transform: translate(-50%, 0);
         z-index: 15;
         text-align: center ;
         color: rgb(255, 255, 255);
@@ -47,15 +28,18 @@
         margin-bottom: 1rem;
     } */
     h1, p {
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+        font-family: 'battlefin', sans-serif;
+        font-weight: 400;
+        font-style: normal;
     }
 
     h1 {
-        font-size: 4vw;
+        font-size: 5vw;
     }
 
     p {
-        font-size: 2vw;
+        font-size: 3vw;
         line-height: 0.4;
     }
 
@@ -66,18 +50,18 @@
         bottom:0;
         right:0;
         z-index: 100;
-        
     }
     
     a {
-        position: relative;
         padding: 20px 40px;
-        font-size: 1.2rem ;
+        font-size: 1.9rem ;
         background: rgb(255, 74, 104);
         text-decoration: none ;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-family: 'battlefin', sans-serif;
+        font-weight: 400;
+        font-style: normal;
         border-radius: 100px;
-        margin: 25px;
+        margin-top: 25px;
         top: 30px;
         cursor: pointer;
         transition: all 0.3s ease ;
@@ -90,20 +74,12 @@
 
 <section>
     <div class="container">
-        <!-- <iframe title="Kitesurfer foiling in Cuba" class="resp-iframe"
-                src="{clip}" 
-                frameborder="0" 
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
-        </iframe> -->
-        <!-- <img src="./images/ikocov.jpeg" alt="cover"> -->
-    </div>
-    <!-- <div class="fallback"></div> -->
-    <div class="banner">
-        <!-- <img src="{logo}" alt="logo"> -->
-        <h1>Foil Kitecamp</h1>
-        <p>Du 11 janvier au 17 janvier 2020</p>
-        <a href="/">Leçons de FoilKite</a>
-        <a href="/">Inscrivez-vous</a>
-        
+        <div class="banner">
+            <!-- <img src="{logo}" alt="logo"> -->
+            <h1>Foil Kitecamp</h1>
+            <p>Du <span style="font-size:1.7em">11</span> janvier au <span style="font-size:1.7em">17</span> janvier 2020</p>
+            <!-- <a href="/">Leçons de FoilKite</a>
+            <a href="/">Inscrivez-vous</a>  -->
+        </div>
     </div>
 </section>

@@ -44,7 +44,7 @@
         font-family: 'battlefin', sans-serif;
         font-weight: 400;
         font-style: normal;
-        font-size: 3.2rem;
+        font-size: 5.2vw;
         /* margin-left: -65px; */
         text-shadow: 2px 2px 5px rgba(204, 145, 34, 0.612);
     }
@@ -177,7 +177,8 @@
 <section>
     <div class="back">
         <article class="first-art">
-            <h2>Ce que nous offrons</h2>
+            <h2>SUR LA PLAGE</h2>
+            <h3>3 packages pour vous permettre d'en profiter au maximum !</h3>
         </article>
     </div>
 

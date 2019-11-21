@@ -36,13 +36,15 @@
 	li {
 		display: block;
 		float: left;
-		margin-top:33px;
+		margin-top:27px;
 		color: white ;
 		 /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
-		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-		 font-size: 1.2em;
-		 
+		font-family: 'battlefin', sans-serif;
+        font-weight: 400;
+        font-style: normal;
+		 font-size: 1.5em;
 		 letter-spacing: 1.3px;
+		 text-shadow: 1px 1px 3px grey ;
 		 
 	}
 

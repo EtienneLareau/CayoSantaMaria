@@ -89,7 +89,7 @@
         }
     }
 
-     @media only screen and (max-width:1115px) {
+    @media only screen and (min-width:766px) and (max-width:1115px) {
          .grid-block {
             grid-gap:20px;
             padding:0px;
@@ -122,13 +122,9 @@
         padding: 0 20px;
         margin-left:0;
         text-shadow: 2px 2px 5px rgba(204, 145, 34, 0.612);
+        }
     }
-    }
-
-
-
-
-
+    /* //////////////// */
 
     .grid-cont {
         /* background: rgba(152, 251, 152, 0.151); */
@@ -177,6 +173,7 @@
 
 <div class="start">
     <article>
+        <p>La destination :</p>
         <h2>Cayo Santa Maria</h2>
         <p>Situé à une quinzaine de kilomètres de Cayo Guillermo, Cayo Santa Maria vous offre les mêmes conditions de vent, d'eau chaude turquoise et d'espace, le tout avec un fond marin en sable blanc sans roche. 
         <br><br>
@@ -196,7 +193,7 @@
         <div class="grid-block">
             <div class="grid-cont">
                 <img src="shopping-bag-heart.png" alt="">
-                <p>Vous obtiendrez une Suite Junior dans notre zone VIP KITE CAMPS en bordure de mer, vous permettant ainsi d'avoir un accès direct à la plage.</p>
+                <p>D'une Suite Junior dans notre zone VIP KITE CAMPS en bordure de mer, vous permettant ainsi d'avoir un accès direct à la plage.</p>
             </div>
             <div class="grid-cont">
                 <img src="love-boat.png" alt="">
