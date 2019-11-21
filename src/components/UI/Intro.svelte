@@ -4,29 +4,17 @@
 
 <style>
     article {
-        max-width: 800px;
+        max-width: 820px;
         width: 80%;
         margin: 40px auto 0;
         padding: 150px 0;
     }
 
-    
-
-    p {
-        /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
-        font-family: 'battlefin', sans-serif;
+    p { font-family: 'battlefin', sans-serif;
         font-weight: 400;
         font-style: normal;
         font-size: 1.7rem ;
-        
-    }
-
-    h2 {
-        font-family: 'feltro-texture-3', sans-serif;
-        font-size: 4.2rem;
-        margin-left: -65px;
-        text-shadow: 2px 2px 5px rgba(204, 145, 34, 0.612);
-    }
+        padding: 2.3em 20px 0; }
 
     .beach {
         
@@ -45,6 +33,17 @@
         /* background: #06855de4; */
     }
 
+    @media only screen and (max-width:725px) {
+        article {
+            width:100%;
+            padding:0 0px 40px;
+        }
+        
+        p {
+            font-size: 1.3rem;
+            line-height:1.3;
+        }
+    }
 </style>
 
     <div class="beach">
