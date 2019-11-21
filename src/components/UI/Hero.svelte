@@ -14,31 +14,23 @@
 
     .banner {
         position: absolute ;
-        top: 60% ;
+        top: 50% ;
         left: 50% ;
-        transform: translate(-50%, 0);
+        transform: translate(-50%, -50%);
         z-index: 15;
         text-align: center ;
         color: rgb(255, 255, 255);
-        text-transform: uppercase ;  
+        text-transform: uppercase ;
+        padding:0;
+        margin:0;
     }
 
 
     img {
         opacity:0;
-         width: 26%;
+         width: 90px;
         margin-bottom: 1rem;
          transition: all 1s ;
-    }
-    @media only screen and (max-width:700px){
-        img {
-        width: 26%;
-        margin-bottom: 1rem;
-        opacity:1;
-        }
-        h1 {
-            font-size:4.1rem;
-        }
     }
     
     h1, p {
@@ -50,11 +42,28 @@
 
     h1 {
         font-size: 5vw;
+        padding:0;
+        margin:0;
     }
 
     p {
         font-size: 3vw;
         line-height: 0.4;
+    }
+
+     @media only screen and (max-width:700px){
+        img {
+        width: 26%;
+        margin-bottom: 1rem;
+        opacity:1;
+        }
+        h1 {
+            font-size:4.1rem;
+        }
+        p {
+            font-size:1.9rem;
+            line-height:1.3;
+        }
     }
 </style>
 

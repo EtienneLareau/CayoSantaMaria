@@ -1,6 +1,27 @@
 <script>
 	export let segment;
 	let logo = 'images/supatitle.png';
+
+	function readMenu() {
+		var el = document.getElementById('open');
+		if (el.className === 'openMenu'){
+			el.className = ' ';
+		} else {
+			el.className = 'openMenu';
+		}
+	}
+	console.log(readMenu);
+
+	/// Function for opening and closing the menu bar ///
+function openNav() {
+  document.getElementById("Nav").style.width="90%";
+  document.getElementById("Nav").style.opacity="1";
+
+}
+function closeNav() {
+  document.getElementById("myNav").style.width="0%";
+  document.getElementById("myNav").style.opacity="0";
+}
 </script>
 
 <style>
@@ -91,6 +112,39 @@
 	.bump {
 		margin-left:2em;
 	}
+
+	.menu {
+		position: absolute;
+		z-index:5010;
+		right:0;
+		top:0;
+		background: green;
+		padding:40px;
+		cursor: pointer;
+	}
+
+	.bars {
+		width:4em;
+		height:2px;
+		margin-bottom:8px;
+		
+		background: red;
+	}
+	#Nav {
+		position: absolute;
+		z-index: 2200;
+		top:5%;
+		left:5%;
+		width:0%;
+		height:90%;
+		background: rgba(119, 186, 119, 0.527);
+		opacity:0;
+		transition: opacity 1s ease, width 0.1s;
+	}
+
+	.show {
+		display:inherit
+	}
 </style>
 
 <nav>
@@ -105,3 +159,22 @@
 		<li><a class='{segment === "contact" ? "selected" : ""}' href='contact'>Contactez-nous</a></li>
 	</ul>
 </nav>
+<div class="menu" on:click={openNav}>
+	<div class="bars"></div>
+	<div class="bars"></div>
+	<div class="bars"></div>
+</div>
+<div id="Nav">
+	<ul class="show">	
+		<li class="bump"><a class='{segment === undefined ? "selected" : ""}' href='.'>Accueil</a></li>
+		<li><a class='{segment === "about" ? "selected" : ""}' href='about'>Services</a></li>
+		
+		<!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
+		     the blog data when we hover over the link or tap it on a touchscreen -->
+		<li><a rel=prefetch class='{segment === "blog" ? "selected" : ""}' href='blog'>Cours</a></li>
+		<li><a class='{segment === "contact" ? "selected" : ""}' href='contact'>Contactez-nous</a></li>
+	</ul>
+
+
+
+</div>
