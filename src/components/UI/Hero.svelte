@@ -28,7 +28,7 @@
 
     img {
         opacity:0;
-         width: 90px;
+         width: 120px;
         margin-bottom: 1rem;
          transition: all 1s ;
     }
@@ -53,7 +53,7 @@
 
      @media only screen and (max-width:700px){
         img {
-        width: 26%;
+        width: 120px;
         margin-bottom: 1rem;
         opacity:1;
         }

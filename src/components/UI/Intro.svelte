@@ -9,12 +9,15 @@
         margin: 40px auto 0;
         padding: 150px 0;
     }
+
+    
+
     p {
         /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
-         font-family: 'battlefin', sans-serif;
+        font-family: 'battlefin', sans-serif;
         font-weight: 400;
         font-style: normal;
-        font-size: 1.6rem ;
+        font-size: 1.7rem ;
         
     }
 
