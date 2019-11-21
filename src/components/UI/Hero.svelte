@@ -1,5 +1,5 @@
 <script>
-    let logo = 'images/LogoKitecamps.png';
+    let logo = 'images/LogoOnly.png';
 </script>
 
 <style>
@@ -13,7 +13,7 @@
     }
 
     .banner {
-        position: relative ;
+        position: absolute ;
         top: 60% ;
         left: 50% ;
         transform: translate(-50%, 0);
@@ -23,10 +23,24 @@
         text-transform: uppercase ;  
     }
 
-    /* img {
-        width: 19%;
+
+    img {
+        opacity:0;
+         width: 26%;
         margin-bottom: 1rem;
-    } */
+         transition: all 1s ;
+    }
+    @media only screen and (max-width:700px){
+        img {
+        width: 26%;
+        margin-bottom: 1rem;
+        opacity:1;
+        }
+        h1 {
+            font-size:4.1rem;
+        }
+    }
+    
     h1, p {
         /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
         font-family: 'battlefin', sans-serif;
@@ -42,40 +56,12 @@
         font-size: 3vw;
         line-height: 0.4;
     }
-
-    .fallback {
-        position: absolute;
-        top:0;
-        left:0;
-        bottom:0;
-        right:0;
-        z-index: 100;
-    }
-    
-    a {
-        padding: 20px 40px;
-        font-size: 1.9rem ;
-        background: rgb(255, 74, 104);
-        text-decoration: none ;
-        font-family: 'battlefin', sans-serif;
-        font-weight: 400;
-        font-style: normal;
-        border-radius: 100px;
-        margin-top: 25px;
-        top: 30px;
-        cursor: pointer;
-        transition: all 0.3s ease ;
-    }
-
-    a:hover {
-        background: rgb(255, 128, 149) ;
-    }
 </style>
 
 <section>
     <div class="container">
         <div class="banner">
-            <!-- <img src="{logo}" alt="logo"> -->
+            <img src="{logo}" alt="logo">
             <h1>Foil Kitecamp</h1>
             <p>Du <span style="font-size:1.7em">11</span> janvier au <span style="font-size:1.7em">17</span> janvier 2020</p>
             <!-- <a href="/">Leçons de FoilKite</a>

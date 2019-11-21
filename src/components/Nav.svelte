@@ -9,18 +9,30 @@
 		padding: 0 1em;
 		position: relative;
 		z-index: 1000;
-		
 	}
+	@media only screen and (max-width:1025px){
+		ul{display:none;}
+	}
+
 
 	img {
         width: 200px;
         margin: 3rem;
 		float: left;
+		opacity:1;
+		transition: all 1s;
     }
+	@media only screen and (max-width:700px){
+		img {
+			opacity:0;
+			
+			}
+	}
 
 	ul {
 		position: absolute;
 		margin: 0;
+		left:240px;
 		padding: 0;
 		margin-left:40px;
 		/* background: palegoldenrod; */
@@ -82,8 +94,8 @@
 </style>
 
 <nav>
-	<ul>
-		<img src="{logo}" alt="logo">
+	<img src="{logo}" alt="logo">
+	<ul>	
 		<li class="bump"><a class='{segment === undefined ? "selected" : ""}' href='.'>Accueil</a></li>
 		<li><a class='{segment === "about" ? "selected" : ""}' href='about'>Services</a></li>
 		
