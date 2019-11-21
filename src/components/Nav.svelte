@@ -99,9 +99,9 @@
 	}
 
 	.bars {
-		width:3em;
+		width:2em;
 		height:2px;
-		margin-bottom:12px;
+		margin-bottom:6px;
 		background: #86fadb;
 	}
 	#Nav {
@@ -137,6 +137,7 @@
 
 <!-- hamburger menu -->
 <div class="menu" on:click={openNav}>
+	<div class="bars"></div>
 	<div class="bars"></div>
 	<div class="bars"></div>
 	<div class="bars"></div>
