@@ -10,17 +10,8 @@
 
 
 <svelte:head>
-	<title>Foil Cayo Santa Maria</title>
+	<title>Venez Foiler à Cayo Santa Maria</title>
 </svelte:head>
-
-<!-- <section>
-	<div class="title">
-		<h1>Foil Kite Camp</h1>
-		<h2>Venez parfaire votre technique de kitefoil</h2>
-		<p>Du 11 janvier au 17 janvier 2020</p>
-	</div>
-</section> -->
-
 
 <!-- Mega banniere avec menu et choix d'info boutons -->
 <Hero /> 

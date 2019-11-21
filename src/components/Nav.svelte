@@ -131,6 +131,7 @@
 		font-family: 'battlefin', sans-serif;
         font-weight: 700;
 		font-style: normal;
+		text-decoration: none;
 	}
 </style>
 
