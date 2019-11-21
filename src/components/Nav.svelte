@@ -53,7 +53,7 @@
 	a {
 		
 		transition: color 0.2s ease ;
-		margin-left:-60px;
+		margin-left:-70px;
 		color:rgb(28, 28, 28);
 		font-size:7vw;
 		font-family: 'battlefin', sans-serif;
@@ -63,7 +63,7 @@
 
 	@media only screen and (orientation:landscape) {
 		a {
-			font-size:3rem;
+			font-size:2rem;
 		}
 	}
 
@@ -81,7 +81,7 @@
 
 	.vert {
 		list-style-type: none;
-		margin: 0 0 80px 0;
+		margin: 0 0 30px 0;
 		text-align: center;
 	}
 
@@ -145,13 +145,13 @@
 <div id="Nav">
 	
 	<ul class="ul-center">	
-		<li class="vert"><a class=' a-link {segment === undefined ? "selected" : ""}' href='.'>Accueil</a></li>
-		<li class="vert"><a class='{segment === "about" ? "selected" : ""}' href='about'>Services</a></li>
+		<li class="vert"><a class=' a-link {segment === undefined ? "selected" : ""}' href='.' on:click={closeNav}>Accueil</a></li>
+		<li class="vert"><a class='{segment === "about" ? "selected" : ""}' href='about' on:click={closeNav}>Services</a></li>
 		
 		<!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
 		     the blog data when we hover over the link or tap it on a touchscreen -->
-		<li class="vert"><a rel=prefetch class='{segment === "blog" ? "selected" : ""}' href='blog'>Cours</a></li>
-		<li class="vert"><a class='{segment === "contact" ? "selected" : ""}' href='contact'>Contactez-nous</a></li>
+		<li class="vert"><a rel=prefetch class='{segment === "blog" ? "selected" : ""}' href='blog' on:click={closeNav}>Cours</a></li>
+		<li class="vert"><a class='{segment === "contact" ? "selected" : ""}' href='contact' on:click={closeNav}>Contactez-nous</a></li>
 	</ul>
 	<a href="javascript:void(0)" class="close-Btn" on:click={closeNav}>X</a>
 </div>
