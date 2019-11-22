@@ -2,49 +2,40 @@
     let logo = 'images/LogoOnly.png';
 </script>
 
+
 <style>
-     section {position: relative;}
 
-    .container {
-        width:100%;
-        height:100vh;
-        background: url('/images/covFoil.jpeg') right center no-repeat;
-        background-size: cover ;
-    }
+     section { position: relative; }
 
-    .banner {
-        position: absolute ;
-        bottom: 5% ;
-        left: 50% ;
-        transform: translate(-50%, 0%);
-        z-index: 15;
-        text-align: center ;
-        color: #86fadb;
-        text-transform: uppercase ;
-        width:95%;
-    }
+    .container { width:100%;
+                 height:100vh;
+                 background: url('/images/covFoil.jpeg') right center no-repeat;
+                 background-size: cover; }
+
+    .banner { position: absolute ;
+              bottom: 5% ;
+              left: 50% ;
+              transform: translate(-50%, 0%);
+              z-index: 15;
+              text-align: center ;
+              color: #86fadb;
+              text-transform: uppercase ;
+              width:95%; }
     
-    h2, p {
-        /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
-        font-family: 'battlefin', sans-serif;
-        font-weight: 400;
-        font-style: normal;
-        text-shadow: 1px 1px 3px rgb(242, 87, 113);
-    }
+    h2, p { font-family: 'battlefin', sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            text-shadow: 1px 1px 3px rgb(18, 97, 74); }
 
-    h2 {
-        font-size: 5vw;
-        padding:0;
-        margin:0 0 -10px;
-        line-height:1.1;
-    }
+    h2 {  font-size: 5vw;
+          padding:0;
+          margin:0 0 -10px;
+          line-height:1.1; }
 
-    p {
-        font-size: 3vw;
-        line-height: 0.4;
-    }
+    p { font-size: 3vw;
+        line-height: 0.4; }
 
-     @media only screen and (max-width:700px){
+    @media only screen and (max-width:700px){
         h2 { font-size:3.1rem;
              line-height:1.1 }
 
@@ -52,9 +43,11 @@
             line-height:1.3; }
 
         .container { background: url('/images/covFoilS2.jpg') right center no-repeat;
-                     background-size: cover; } }
+                     background-size: cover; } 
+    }
 
 </style>
+
 
 <section>
     <div class="container">

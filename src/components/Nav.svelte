@@ -93,7 +93,8 @@
 	.bars { width:2em;
 			height:2px;
 			margin-bottom:6px;
-			background: #86fadb; }
+			background: #86fadb;
+			box-shadow: 1px 1px 1px rgba(18, 97, 75, 0.493) }
 	
 	#Nav {  position: fixed;
 			margin:0;
