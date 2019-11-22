@@ -61,12 +61,6 @@
 
     }
 
-    @media only screen and (min-width:750px){
-        .grid-logo {
-            grid-template-columns: 1fr 1fr 1fr;
-        }
-    }
-
     img {
         color: blue;
         width:70px;
@@ -173,13 +167,29 @@
         width: 100%;
     }
 
-    @media only screen and (max-width:725px){
+     @media only screen and (min-width:750px){
+        .grid-logo { grid-template-columns: 1fr 1fr 1fr; }
+     }
+
+    @media only screen and (max-width:749px){
         .back {
         position: relative;
         z-index:20;
-        padding: 170px 0 20px;
+        padding: 170px 0 20px; }
+    
+    .sec-art { max-width: 100%;
+                   margin: 0 auto 50px ; }
+    
+    .grid-logo > div { padding: 0 0px; }
+
+    img {
+        margin-top:140px;
     }
-    }
+
+
+         }
+         
+    
 
 
 </style>
