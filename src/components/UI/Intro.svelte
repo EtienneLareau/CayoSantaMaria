@@ -23,13 +23,11 @@
         font-size: 1.7rem ;
         padding: 2.3em 20px 0; }
 
-    .beach {
-        
-        background-image: url('/images/jumpLight.jpeg');
-        background-position: center ;
-        background-repeat: no-repeat ;
-        background-size: cover ;
-        margin-top:-42px;
+    .beach {background-image: url('/images/jumpLight.jpeg');
+            background-position: center ;
+            background-repeat: no-repeat ;
+            background-size: cover ;
+            margin-top:-42px;
     }
 
     .cover {
@@ -43,7 +41,7 @@
     @media only screen and (max-width:725px) {
         article {
             width:100%;
-            padding:0 0px 40px;
+            padding:20px 0px 40px;
         }
         
         h1 {
