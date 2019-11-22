@@ -8,15 +8,15 @@
     .container {
         width:100%;
         height:100vh;
-        background: url('/images/cayoCov.jpeg') right center no-repeat;
+        background: url('/images/foil-left.jpeg') left center no-repeat;
         background-size: cover ;
     }
 
     .banner {
         position: absolute ;
-        top: 50% ;
+        bottom: 0 ;
         left: 50% ;
-        transform: translate(-50%, -50%);
+        transform: translate(-50%, 0%);
         z-index: 15;
         text-align: center ;
         color: rgb(255, 255, 255);
@@ -42,7 +42,8 @@
     h1 {
         font-size: 5vw;
         padding:0;
-        margin:0;
+        margin:0 0 -10px;
+        line-height:0.5;
     }
 
     p {
