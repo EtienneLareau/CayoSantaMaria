@@ -14,7 +14,7 @@
 
     .banner {
         position: absolute ;
-        bottom: 0 ;
+        bottom: 10% ;
         left: 50% ;
         transform: translate(-50%, 0%);
         z-index: 15;
