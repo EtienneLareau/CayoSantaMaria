@@ -29,6 +29,7 @@
         font-family: 'battlefin', sans-serif;
         font-weight: 400;
         font-style: normal;
+        text-shadow: 1px 1px 3px rgb(242, 87, 113);
     }
 
     h2 {
@@ -47,7 +48,7 @@
         h2 { font-size:3.1rem;
              line-height:1.1 }
 
-        p { font-size:1.9rem;
+        p { font-size:1.3rem;
             line-height:1.3; }
 
         .container { background: url('/images/covFoilS2.jpg') right center no-repeat;
