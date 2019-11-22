@@ -21,8 +21,7 @@
         text-align: center ;
         color: rgb(255, 255, 255);
         text-transform: uppercase ;
-        padding:0;
-        margin:0;
+        width:95%;
     }
 
 
@@ -53,12 +52,12 @@
 
      @media only screen and (max-width:700px){
         img {
-        width: 120px;
+        width: 70px;
         margin-bottom: 1rem;
         opacity:1;
         }
         h1 {
-            font-size:4.1rem;
+            font-size:3.1rem;
         }
         p {
             font-size:1.9rem;
