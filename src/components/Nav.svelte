@@ -122,6 +122,13 @@
 		font-style: normal;
 		text-decoration: none;
 	}
+	img {
+		position: absolute;
+		width:150px;
+		top:24px;
+		left:30px;
+		z-index: 7000;
+	}
 </style>
 
 <!-- hamburger menu -->
@@ -133,8 +140,9 @@
 </div>
  <!-- ************* -->
 
+<img src="/images/supatitle.png" alt="Logo KiteTrips.ca">
 <div id="Nav">
-	
+	<img src="/images/supatitle.png" alt="Logo KiteTrips.ca">
 	<ul class="ul-center">	
 		<li class="vert"><a class=' a-link {segment === undefined ? "selected" : ""}' href='.' on:click={closeNav}>Accueil</a></li>
 		<li class="vert"><a class='{segment === "about" ? "selected" : ""}' href='about' on:click={closeNav}>Services</a></li>

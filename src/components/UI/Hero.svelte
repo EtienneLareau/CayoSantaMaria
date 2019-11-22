@@ -8,7 +8,7 @@
     .container {
         width:100%;
         height:100vh;
-        background: url('/images/foil-left.jpeg') left center no-repeat;
+        background: url('/images/covFoil.jpeg') left center no-repeat;
         background-size: cover ;
     }
 
@@ -32,14 +32,14 @@
          transition: all 1s ;
     }
     
-    h1, p {
+    h2, p {
         /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
         font-family: 'battlefin', sans-serif;
         font-weight: 400;
         font-style: normal;
     }
 
-    h1 {
+    h2 {
         font-size: 5vw;
         padding:0;
         margin:0 0 -10px;
@@ -52,27 +52,25 @@
     }
 
      @media only screen and (max-width:700px){
-        img {
-        width: 70px;
-        margin-bottom: 1rem;
-        opacity:1;
-        }
-        h1 {
-            font-size:3.1rem;
-        }
-        p {
-            font-size:1.9rem;
-            line-height:1.3;
-        }
-    }
+        img { width: 70px;
+              margin-bottom: 1rem;
+              opacity:1; }
+
+        h2 { font-size:3.1rem; }
+
+        p { font-size:1.9rem;
+            line-height:1.3; }
+
+        .container { background-position: right; } }
+        
 </style>
 
 <section>
     <div class="container">
         <div class="banner">
-            <img src="{logo}" alt="logo">
-            <h1>Foil Kitecamp</h1>
-            <p>Du <span style="font-size:1.7em">11</span> janvier au <span style="font-size:1.7em">17</span> janvier 2020</p>
+            <!-- <img src="{logo}" alt="logo"> -->
+            <h2>Foil Kitecamp</h2>
+            <p>Du <span style="font-size:1.5em">11</span> janvier au <span style="font-size:1.5em">17</span> janvier 2020</p>
             <!-- <a href="/">Leçons de FoilKite</a>
             <a href="/">Inscrivez-vous</a>  -->
         </div>
