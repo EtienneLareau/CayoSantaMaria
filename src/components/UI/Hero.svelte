@@ -19,7 +19,7 @@
         transform: translate(-50%, 0%);
         z-index: 15;
         text-align: center ;
-        color: rgb(255, 255, 255);
+        color: #86fadb;
         text-transform: uppercase ;
         width:95%;
     }
