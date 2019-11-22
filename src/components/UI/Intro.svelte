@@ -41,7 +41,7 @@
     @media only screen and (max-width:725px) {
         article {
             width:100%;
-            padding:20px 0px 40px;
+            padding:30px 0px 40px;
         }
         
         h1 {
