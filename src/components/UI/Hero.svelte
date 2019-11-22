@@ -8,13 +8,13 @@
     .container {
         width:100%;
         height:100vh;
-        background: url('/images/covFoil.jpeg') left center no-repeat;
+        background: url('/images/covFoil.jpeg') right center no-repeat;
         background-size: cover ;
     }
 
     .banner {
         position: absolute ;
-        bottom: 10% ;
+        bottom: 5% ;
         left: 50% ;
         transform: translate(-50%, 0%);
         z-index: 15;
@@ -22,14 +22,6 @@
         color: #86fadb;
         text-transform: uppercase ;
         width:95%;
-    }
-
-
-    img {
-        opacity:0;
-         width: 120px;
-        margin-bottom: 1rem;
-         transition: all 1s ;
     }
     
     h2, p {
@@ -43,7 +35,7 @@
         font-size: 5vw;
         padding:0;
         margin:0 0 -10px;
-        line-height:0.5;
+        line-height:1.1;
     }
 
     p {
@@ -52,17 +44,15 @@
     }
 
      @media only screen and (max-width:700px){
-        img { width: 70px;
-              margin-bottom: 1rem;
-              opacity:1; }
-
-        h2 { font-size:3.1rem; }
+        h2 { font-size:3.1rem;
+             line-height:1.1 }
 
         p { font-size:1.9rem;
             line-height:1.3; }
 
-        .container { background-position: right; } }
-        
+        .container { background: url('/images/covFoilS.jpg') right center no-repeat;
+                     background-size: cover; } }
+
 </style>
 
 <section>
