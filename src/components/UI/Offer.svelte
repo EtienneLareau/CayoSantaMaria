@@ -172,6 +172,16 @@
         
         width: 100%;
     }
+
+    @media only screen and (max-width:725px){
+        .back {
+        position: relative;
+        z-index:20;
+        padding: 170px 0 20px;
+    }
+    }
+
+
 </style>
 
 <section>

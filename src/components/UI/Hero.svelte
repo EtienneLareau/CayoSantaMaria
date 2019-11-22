@@ -50,7 +50,7 @@
         p { font-size:1.9rem;
             line-height:1.3; }
 
-        .container { background: url('/images/covFoilS.jpg') right center no-repeat;
+        .container { background: url('/images/covFoilS2.jpg') right center no-repeat;
                      background-size: cover; } }
 
 </style>
