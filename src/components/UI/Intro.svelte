@@ -13,7 +13,7 @@
     h1 { font-family: 'battlefin', sans-serif;
          font-weight: 400;
          font-style: normal;
-         font-size: 4.3vw ;
+         font-size: 5.3vw ;
          padding: 1em 20px 0;
          margin:0; }
 
@@ -47,7 +47,7 @@
         }
         
         h1 {
-            font-size: 3.7rem;
+            font-size: 2.7rem;
         }
 
         p {
