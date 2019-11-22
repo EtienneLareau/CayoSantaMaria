@@ -15,20 +15,27 @@
          font-style: normal;
          font-size: 5.3vw ;
          padding: 1em 20px 0;
-         margin:0; }
+         margin:0;
+         text-shadow: 1px 1px 3px #86fadb }
 
     p { font-family: 'battlefin', sans-serif;
         font-weight: 400;
         font-style: normal;
+        letter-spacing: 1.03px;
         font-size: 1.7rem ;
         padding: 2.3em 20px 0; }
 
-    .beach {background-image: url('/images/jumpLight.jpeg');
+    /* .beach {background-image: url('/images/jumpLight.jpeg');
             background-position: center ;
             background-repeat: no-repeat ;
             background-size: cover ;
+            margin-top:-42px; } */
+
+        .beach {
+            background-color: #86fadb19;
             margin-top:-42px;
-    }
+            
+        }
 
     .cover {
         position: relative;
