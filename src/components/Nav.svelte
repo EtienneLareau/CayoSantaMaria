@@ -15,13 +15,53 @@
 	/// Function for opening and closing the menu bar ///
 	function openNav() {
   		document.getElementById("Nav").style.width="100%";
-  		document.getElementById("Nav").style.opacity="1";
+		document.getElementById("Nav").style.opacity="1";
+		document.getElementById("Nav").style.display="inherit";
+		 
 
 	}
 	function closeNav() {
   		document.getElementById("Nav").style.width="0%";
-  		document.getElementById("Nav").style.opacity="0";
+		  document.getElementById("Nav").style.opacity="0";
+		  document.getElementById("Nav").style.display="none";
+		  
 	}
+
+
+	/// Function for sub menu and rotating arrow Simon ///
+function openSubSim() {
+	document.getElementById("openSubSim").style.height="210px";
+	document.getElementById("arrowChirSim").style.color="#f49a6d";
+	
+	var el = document.getElementById("arrowChirSim");
+  	el.classList.remove("rotatingArrowTop");
+
+	var element, name, arr;
+	element = document.getElementById("arrowChirSim");
+	name = "rotatingArrow";
+	arr = element.className.split(" ");
+	if (arr.indexOf(name) == -1) {
+	  element.className += " " + name;
+	}
+}
+
+function openTopSim() {
+	document.getElementById("openSubSim").style.height="0px";
+	document.getElementById("arrowChirSim").style.color="#18385f";
+	
+	var el = document.getElementById("arrowChirSim");
+  	el.classList.remove("rotatingArrow");
+
+	var element, name, arr;
+	element = document.getElementById("arrowChirSim");
+	name = "rotatingArrowTop";
+	arr = element.className.split(" ");
+	if (arr.indexOf(name) == -1) {
+	  element.className += " " + name;
+	}
+}
+///////////////////////////////////////////////////////
+
 </script>
 
 <style>
@@ -70,9 +110,9 @@
 	}
 
 	.ul-center {
-		width: 100%;
+		
 		top:50%;
-		position: absolute;
+		position: relative;
 		transform: translate(0,-50%);
 		list-style-type: none;
 	}
@@ -97,6 +137,7 @@
 			box-shadow: 1px 1px 1px rgba(18, 97, 75, 0.493) }
 	
 	#Nav {  position: fixed;
+			display:none;
 			margin:0;
 			padding:0;
 			z-index: 2200;
@@ -105,8 +146,8 @@
 			width:0%;
 			height:100%;
 			background: #86fadb;
-			opacity:0;
-			transition: opacity 0.15s ease-out, width 0s; }
+			opacity:1;
+			transition: all 0.15s ease-out, width 0s; }
 
 	.close-Btn {
 		position: absolute;
@@ -143,9 +184,9 @@
 
 <img src="/images/supatitle.png" alt="Logo KiteTrips.ca">
 <div id="Nav">
-	<img src="/images/supatitle.png" alt="Logo KiteTrips.ca">
+	<!-- <img src="/images/supatitle.png" alt="Logo KiteTrips.ca"> -->
 	<ul class="ul-center">	
-		<li class="vert"><a class=' a-link {segment === undefined ? "selected" : ""}' href='.' on:click={closeNav}>Accueil</a></li>
+		<li class="vert"><a class='{segment === undefined ? "selected" : ""}' href='.' on:click={closeNav}>Accueil</a></li>
 		<li class="vert"><a class='{segment === "about" ? "selected" : ""}' href='about' on:click={closeNav}>Services</a></li>
 		
 		<!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
