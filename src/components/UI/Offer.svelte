@@ -19,7 +19,7 @@
     .back {
         position: relative;
         z-index:10;
-        padding: 105px 0 50px;
+        padding: 50px 0 50px;
     }
 
      .first-art { text-align: center ;
