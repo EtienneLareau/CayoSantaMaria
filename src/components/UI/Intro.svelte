@@ -7,7 +7,7 @@
         max-width: 820px;
         width: 80%;
         margin: 40px auto 0;
-        padding: 150px 0;
+        padding: 80px 0;
     }
 
     h1 { font-family: 'battlefin', sans-serif;

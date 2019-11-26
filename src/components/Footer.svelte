@@ -1,10 +1,11 @@
 <style>
     footer {
-	background-color: rgb(240, 255, 240);
-	height:400px;
+	background-color:#86fadb;
+    height:400px;
+    top:0;
 }
 </style>
 
 <footer>
-    <h2>Footer</h2>
+    
 </footer>
