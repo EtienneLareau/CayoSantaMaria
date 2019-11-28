@@ -60,14 +60,14 @@
         <h2 class="title">Vous ne voulez manquez aucun voyage ?</h2>
         <p class="para">Inscrivez-vous à notre infolettre pour ne rien manqué</p>
         
-        <form method="POST" netlify>
-            <label for="name">Nom et prénom
-                <input type="text" id="name" name="names" placeholder="" >
-            </label>
-
-            <label for="email">Entrez votre adresse courriel
-                <input type="email" id="email" name="email" />
-            </label>
+        <form name="contactForm" method="POST" data-netlify="true">
+            <label for="name">Nom et prénom</label>
+                <input type="text" id="name" name="names" placeholder="" required >
+            
+            <label for="email">Entrez votre adresse courriel</label>
+                <input type="email" id="email" name="email"  required/>
+            
+            <button type="submit">S'inscrire</button>
         </form>
     </div>
 </section>
