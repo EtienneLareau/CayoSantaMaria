@@ -14,16 +14,16 @@
 </svelte:head>
 
 <!-- Mega banniere avec menu et choix d'info boutons -->
-<!-- <Hero />  -->
+<Hero /> 
 
 <!-- premier text qui explique le voyage -->
-<!-- <Intro /> -->
+<Intro />
 
 <!-- offee de servcies des cours Multi logo -->
-<!-- <Offer /> -->
+<Offer />
 
  <!-- le mega texte de ben -->
-<!-- <Services /> -->
+<Services />
 <!-- video -->
 <!-- <Ready /> -->
 <Newsletter />
