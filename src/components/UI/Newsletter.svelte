@@ -58,12 +58,16 @@
         font-size:1.5rem;
         box-shadow: 1px 1px 3px rgba(128, 128, 128, 0.425);
         transition: all 0.25s ease-out;
+        cursor: pointer;
+        border-radius:2px;
+        
     }
 
     button:focus, button:hover {
-        background: white;
+        background: #86fadb;
         color:#278e73;
         box-shadow:none;
+        border-radius:0px 50px 50px 0px;
     }
 
     @media only screen and (max-width:725px) {
