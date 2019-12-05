@@ -91,7 +91,7 @@
         <h2 class="title">Vous ne voulez manquez aucun voyage ?</h2>
         <p class="para">Inscrivez-vous à notre infolettre pour ne rien manqué</p>
         
-        <form name="FoilContactForm" method="POST" data-netlify="true">
+        <form name="FoilContactForm" method="POST" Content-Type="application/x-www-form-urlencoded" data-netlify="true">
             <label for="name">Nom et prénom</label>
                 <input type="text" id="name" name="clientNames" placeholder="" required >
             
