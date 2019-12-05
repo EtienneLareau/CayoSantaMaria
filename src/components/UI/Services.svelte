@@ -7,11 +7,12 @@
         max-width: 800px;
         width: 80% ;
         margin: 40px auto 0;
-        padding: 150px 0 0px;
+        padding: 100px 0 0px;
         /* background: #70fad581 ; */
     }
     article > p {
-        text-shadow: 1px 1px 3px rgba(243, 164, 7, 0.589);
+        
+        font-size:1.7rem !important;
     }
 
 
@@ -168,27 +169,50 @@
     }
 
     .start {
-        margin-top:-50px;
+        margin-top:-40px;
         background-image: url('/images/coursLight.jpeg');
         background-position: center;
         background-repeat: no-repeat ;
         background-size: cover;
     }
+
+    .fade {
+        position: relative;
+        z-index: 100;
+        background: rgba(255, 255, 255, 0.603);
+        width:100%;
+        height:100%;
+        
+    }
 </style>
 
 <div class="start">
-    <article>
-        <p>La destination :</p>
-        <h2>Cayo Santa Maria</h2>
-        <p>Situé à une quinzaine de kilomètres de Cayo Guillermo, Cayo Santa Maria vous offre les mêmes conditions de vent, d'eau chaude turquoise et d'espace, le tout avec un fond marin en sable blanc sans roche. 
-        <br><br>
-        Un terrain de jeu exceptionnel à découvrir pour tous les gouts possédant une immense zone de " flat water " à côté du parc National pour nos débutants et au large de la barrière de coraux, un terrain de Freestyle avec de la petite vague qui vous permettra de pratiquer le kitesurf et le hydrofoil en toute sécurité.
-        <br><br>
-        À deux pas de votre chambre la plage du Kite Camps Valentin Club Perla Blanca est un endroit paradisiaque et unique, qui en font l'un des meilleurs ‘’SPOTS’’ des Caraïbes.
-        <br><br>
-        </p>
-    </article>
-    <br>
+    <div class="fade">
+        <article>
+            <p>La destination :</p>
+            <h2>Cayo Santa Maria</h2>
+            <p>Situé à une quinzaine de kilomètres de Cayo Guillermo, 
+                Cayo Santa Maria vous offre les mêmes conditions de vent,
+                 d'eau chaude turquoise et d'espace, le tout avec un fond 
+                 marin en sable blanc sans roche.</p>
+            <br>
+            
+            <p>Un terrain de jeu exceptionnel à découvrir pour tous les gouts
+             possédant une immense zone de " flat water " à côté du parc 
+             National pour nos débutants et au large de la barrière de 
+             coraux, un terrain de Freestyle avec de la petite vague qui 
+             vous permettra de pratiquer le kitesurf et le hydrofoil en 
+             toute sécurité.</p>
+            <br>
+            
+            <p> À deux pas de votre chambre la plage du Kite Camps Valentin 
+             Club Perla Blanca est un endroit paradisiaque et unique, 
+             qui en font l'un des meilleurs ‘’SPOTS’’ des Caraïbes.</p>
+           
+            <br><br>
+            
+        </article>
+    </div>
 </div>
 <div class="green">
     <p class="reserved">
