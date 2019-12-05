@@ -7,7 +7,7 @@
     section {
         position: relative;
         max-width: 800px;
-        margin: 0 auto;
+        margin: 100px auto 0px;
     }
 
     .resp-container {
@@ -55,7 +55,8 @@
 <section class="ready">
     <div class="resp-container">
         <div class="cov"></div>
-        <iframe class="resp-iframe"
+        <iframe title="video showing the beach of Cayo Santa Maria"
+                class="resp-iframe"
                 src="https://www.youtube.com/embed/N6RdFH_6a1Q?controls=0&amp;start=7&end=72;&loop=1&playlist=N6RdFH_6a1Q&autoplay=1&mute=1" 
                 frameborder="0" 
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>

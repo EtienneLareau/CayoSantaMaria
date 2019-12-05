@@ -25,6 +25,6 @@
  <!-- le mega texte de ben -->
 <Services />
 <!-- video -->
-<!-- <Ready /> -->
+<Ready />
 <Newsletter />
 

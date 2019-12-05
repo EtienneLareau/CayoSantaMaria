@@ -21,12 +21,12 @@
         text-shadow: 2px 2px 5px rgba(204, 145, 34, 0.612);
     }
 </style>
-<!-- 
+
 <div>
   <h2>Le Spot de kitesurf</h2>
   <video src="CayoPrez.mp4" autoplay controls preload="metadata" loop> <!-- add poster="" for pre load image -->
-    <!-- Votre navigateur ne permet pas de lire les vidéos.
+    Votre navigateur ne permet pas de lire les vidéos.
     Mais vous pouvez toujours 
     <a href="CayoPrez.mp4">la télécharger</a> !
   </video>
-</div> --> 
+</div>

@@ -2,7 +2,7 @@
     section {
         position: relative;
         width: 100% ;
-        height:700px;
+        height:800px;
          
     }
 
@@ -12,13 +12,14 @@
 	    font-weight: 400;
         font-style: normal;
         font-size: 1.3rem ;
-        line-height: 1.7;
+        line-height: 1.2;
         cursor: pointer ;
     }
 
     p {
         font-size: 1.3rem ;
-        line-height: 1.9;
+        margin:0;
+        text-align:center;
     }
 
     h2 {
@@ -33,21 +34,22 @@
     .block {
         position: absolute ;
         max-width: 800px;
-        margin: 0 auto;
+        margin: 200px auto;
         top: 50% ;
         left: 50% ;
         transform: translate(-50%, -50%) ;
     }
-    input {
+    input, input:focus {
         display: block;
         height: 30px ;
-        width: 75% ;
+        width: 100% ;
         border: 1px solid #278e73;
         cursor: pointer ;
-        margin-bottom: 22px;
-        color: red;
-        font-size: 1.1rem;
-        padding: 8px 10px;
+        margin-bottom: 32px;
+        color: #278e73;
+        text-align:center;
+        font-size: 1.7rem;
+        padding: 8px 0;
     }
 
     button {
@@ -60,6 +62,9 @@
         transition: all 0.25s ease-out;
         cursor: pointer;
         border-radius:2px;
+        position: relative;
+        left:50%;
+        transform: translate(-50%,0%);
         
     }
 
@@ -67,7 +72,7 @@
         background: #86fadb;
         color:#278e73;
         box-shadow:none;
-        border-radius:0px 50px 50px 0px;
+        border-radius:50px;
     }
 
     @media only screen and (max-width:725px) {
@@ -92,15 +97,19 @@
 
 <section>
     <div class="block">
-        <h2 class="title">Vous ne voulez manquez aucun voyage ?</h2>
-        <p class="para">Inscrivez-vous à notre infolettre pour ne rien manqué</p>
-        
+        <h2 class="title">Vous voulez devenir un foileux ?</h2>
+        <p class="para">Inscrivez-vous ci-dessous.<br>Un agent vous contactera dans les prochaines 24 heures.</p>
+        <br><br>
         <form name="FoilContactForm" method="POST" Content-Type="application/x-www-form-urlencoded" netlify action="/about">
             <input type="hidden" name="form-name" value="FoilContactForm" />
-            <label for="name">Nom et prénom</label>
+            
+            <label for="name"><p>Nom et prénom</p></label>
                 <input type="text" id="name" name="clientNames" placeholder="" required >
             
-            <label for="email">Entrez votre adresse courriel</label>
+            <label for="phone"><p>Numéro de téléphone</p></label>
+                <input type="tel" id="phone" name="clientPhone" placeholder="" required >
+            
+            <label for="email"><p>Entrez votre adresse courriel</p></label>
                 <input type="email" id="email" name="clientEmail"  required/>
             
             <button type="submit">INSCRIVEZ-VOUS</button>

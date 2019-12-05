@@ -250,13 +250,3 @@
         </div>
     </div>
 </div>
-<!-- <div class="backimage">
-    <div class="grid-sec">
-        <div class="right">
-             <p>Venez profiter de la chaleur de Cuba et de son vent d’une stabilité légendaire. Destination prisée pour le kitesurf, Cayo Santa Maria vous permet d’apprendre et de progresser sous la supervision de nos conseillers et de nos instructeurs dans un cadre sécuritaire. Des kilomètres de « flat water » font de cette île l’endroit idéal pour commencer le sport ou pour progresser en freestyle. De plus, la plage de près de 200 pieds de largeur vous procure assez d'espace pour assembler vos ailes en toute quiétude.</p>
-        </div>
-        <div class="left">
-           
-        </div>
-    </div>
-</div> -->
