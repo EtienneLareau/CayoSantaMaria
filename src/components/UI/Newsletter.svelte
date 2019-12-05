@@ -91,7 +91,7 @@
         <h2 class="title">Vous ne voulez manquez aucun voyage ?</h2>
         <p class="para">Inscrivez-vous à notre infolettre pour ne rien manqué</p>
         
-        <form name="contactForm" method="POST" netlify action="/contact">
+        <form name="contactForm" method="POST" netlify action="./contact">
             <label for="name">Nom et prénom</label>
                 <input type="text" id="name" name="names" placeholder="" required >
             
