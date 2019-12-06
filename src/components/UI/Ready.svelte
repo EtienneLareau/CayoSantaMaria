@@ -1,6 +1,4 @@
 <script>
-    let clip = '';
-    let logo = 'images/LogoKitecamps.png';
 </script>
 
 <style>
@@ -36,30 +34,26 @@
         
     }
 
-    .ready {
-        position: relative;
-        
-    }
-
     .cov {
         position: absolute;
         left:0;
         top:0;
-        z-index: 15;
-        background: rgba(0, 0, 0, 0.132);
+        z-index: 115;
+        background: rgba(189, 189, 189, 0);
         width:100%;
         height:100%;
     }
 </style>
 
-<section class="ready">
+<section>
     <div class="resp-container">
         <div class="cov"></div>
         <iframe title="video showing the beach of Cayo Santa Maria"
                 class="resp-iframe"
                 src="https://www.youtube.com/embed/N6RdFH_6a1Q?controls=0&amp;start=7&end=72;&loop=1&playlist=N6RdFH_6a1Q&autoplay=1&mute=1" 
                 frameborder="0" 
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+        </iframe>
     </div>
-    <div class="fallback"></div>
+    <!-- <div class="fallback"></div> -->
 </section>

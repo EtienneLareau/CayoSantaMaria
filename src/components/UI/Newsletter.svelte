@@ -2,8 +2,13 @@
     section {
         position: relative;
         width: 100% ;
-        height:800px;
-         
+    }
+
+    .block {
+        
+        max-width: 800px;
+        margin: 100px auto;
+        padding: 0 100px;
     }
 
     label {
@@ -19,33 +24,22 @@
     p {
         font-size: 1.3rem ;
         margin:0;
-        text-align:center;
     }
 
     h2 {
         font-size: 3.2rem;
         line-height: 1;
+        text-shadow:1px 1px 2px #86fadb;
     }
 
-    h2, p {
-        text-align: center ;
-    }
+    h2, p {text-align: center ;}
 
-    .block {
-        position: absolute ;
-        max-width: 800px;
-        margin: 200px auto;
-        top: 50% ;
-        left: 50% ;
-        transform: translate(-50%, -50%) ;
-    }
     input, input:focus {
-        display: block;
         height: 30px ;
         width: 100% ;
         border: 1px solid #278e73;
         cursor: pointer ;
-        margin-bottom: 32px;
+        margin: 0 0 32px;
         color: #278e73;
         text-align:center;
         font-size: 1.7rem;
@@ -79,11 +73,12 @@
         .block {
         position: relative ;
         max-width: 100%;
-        margin: 40px 20px 40px;
+        margin: 60px 20px 60px;
+        padding: 0 20px;
     }
 
         h2 {
-            font-size:1.9rem;
+            font-size:2.1rem;
             padding-right:20px;
             text-align:left;
         }
@@ -109,7 +104,7 @@
             <label for="phone"><p>Numéro de téléphone</p></label>
                 <input type="tel" id="phone" name="clientPhone" placeholder="" required >
             
-            <label for="email"><p>Entrez votre adresse courriel</p></label>
+            <label for="email"><p>Adresse courriel</p></label>
                 <input type="email" id="email" name="clientEmail"  required/>
             
             <button type="submit">INSCRIVEZ-VOUS</button>
