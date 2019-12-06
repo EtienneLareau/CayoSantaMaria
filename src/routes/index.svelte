@@ -15,19 +15,22 @@
 </svelte:head>
 
 <!-- Mega banniere avec menu et choix d'info boutons -->
-<Hero /> 
+<Hero />
 
 <!-- premier text qui explique le voyage -->
 <Intro />
 
+<!-- First video - kiters - foilers -->
 <KiteVideo />
 
 <!-- offee de servcies des cours Multi logo -->
 <Offer />
 
- <!-- le mega texte de ben -->
-<Services />
 <!-- video -->
 <Ready />
+
+ <!-- le mega texte de ben -->
+<Services />
+
 <Newsletter />
 

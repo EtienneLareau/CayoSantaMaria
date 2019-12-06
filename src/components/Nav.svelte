@@ -130,12 +130,14 @@ function openTopSim() {
 		cursor: pointer;
 	}
 
-	.bars { width:2em;
-			height:2px;
+	.bars { width:3em;
+			height:4px;
 			margin-bottom:6px;
-			background: #86fadb;
-			box-shadow: 1px 1px 1px rgba(18, 97, 75, 0.493) }
+			background: #ff22aa;
+	}
+
 	
+
 	#Nav {  position: fixed;
 			display:none;
 			margin:0;
@@ -175,10 +177,10 @@ function openTopSim() {
 
 <!-- hamburger menu -->
 <div class="menu" on:click={openNav}>
-	<div class="bars"></div>
-	<div class="bars"></div>
-	<div class="bars"></div>
-	<div class="bars"></div>
+	<div class="bars first"></div>
+	<div class="bars second"></div>
+	<div class="bars third"></div>
+	
 </div>
  <!-- ************* -->
 

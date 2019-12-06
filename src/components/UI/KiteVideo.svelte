@@ -6,7 +6,7 @@
     section {
         position: relative;
         max-width: 800px;
-        margin: 100px auto 100px;
+        margin: 0px auto 100px;
     }
 
     .resp-container {
