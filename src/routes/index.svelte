@@ -5,7 +5,8 @@
 	import Ready from '../components/UI/Ready.svelte';
 	import Services from '../components/UI/Services.svelte';
 	import Newsletter from '../components/UI/Newsletter.svelte';
-	
+	import KiteVideo from '../components/UI/KiteVideo.svelte';
+
 </script>
 
 
@@ -18,6 +19,8 @@
 
 <!-- premier text qui explique le voyage -->
 <Intro />
+
+<KiteVideo />
 
 <!-- offee de servcies des cours Multi logo -->
 <Offer />

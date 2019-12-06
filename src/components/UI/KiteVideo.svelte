@@ -1,32 +1,59 @@
+<script>
+
+</script>
+
 <style>
-  div {
-    position: relative;
-     max-width: 800px;
-        width: 80%;
-        margin: 40px auto 0;
-        padding: 150px 0;
-  }
+    section {
+        position: relative;
+        max-width: 800px;
+        margin: 100px auto 100px;
+    }
 
-  video {
-    position: relative;
-    top: 0 ;
-    left: 50% ;
-    transform: translate(-50%,0%);
-  }
+    .resp-container {
+        position: relative;
+        overflow: hidden;
+        padding-top: 56.25%; /* This is 9th / 16th */
+    }
 
-  h2 {
-        font-family: 'feltro-texture-3', sans-serif;
-        font-size: 4.2rem;
-        margin-left: -65px;
-        text-shadow: 2px 2px 5px rgba(204, 145, 34, 0.612);
+    .resp-iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 0;
+    }
+
+
+    .fallback {
+        position: absolute;
+        top:0;
+        left:0;
+        bottom:0;
+        right:0;
+        z-index: 100;
+    }
+
+    .cov {
+        position: absolute;
+        left:0;
+        top:0;
+        z-index: 115;
+        background: rgba(189, 189, 189, 0);
+        width:100%;
+        height:100%;
     }
 </style>
 
-<div>
-  <h2>Le Spot de kitesurf</h2>
-  <video src="CayoPrez.mp4" autoplay controls preload="metadata" loop> <!-- add poster="" for pre load image -->
-    Votre navigateur ne permet pas de lire les vidéos.
-    Mais vous pouvez toujours 
-    <a href="CayoPrez.mp4">la télécharger</a> !
-  </video>
-</div>
+<section>
+    <div class="resp-container">
+        <div class="cov"></div>
+        <iframe title="video showing the beach of Cayo Santa Maria"
+                class="resp-iframe"
+                src="https://www.youtube.com/embed/Jd2KnrbSPT0?controls=0&amp;start=7&end=72;&loop=1&playlist=Jd2KnrbSPT0&autoplay=1&mute=1" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+        </iframe>
+    </div>
+    <!-- <div class="fallback"></div> -->
+</section>
