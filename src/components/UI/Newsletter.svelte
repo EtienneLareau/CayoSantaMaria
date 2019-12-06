@@ -92,7 +92,7 @@
     }
     /* .regBump { padding:10px; } */
 
-    #Register {padding:10px;}
+    #Register {padding:20px;}
 </style>
 
 <section>

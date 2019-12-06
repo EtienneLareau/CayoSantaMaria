@@ -177,7 +177,7 @@
     .para-link { font-family: 'battlefin', sans-serif;
         font-weight: 400;
         font-style: normal;
-        font-size: 1.9rem ;
+        font-size: 1.5rem ;
         text-align: center;
         width:300px;
         margin: 0 auto 40px;
@@ -185,16 +185,17 @@
         background: #ff22aa;
         box-shadow: 2px 2px 5px black;
         color:white;
-        border-radius:50px;
-        padding: 20px 30px;
+        border-radius:10px;
+        padding: 20px 40px;
         transition: all 0.1s ease-in;
         cursor: pointer;
          }
 
     .para-link:hover {
-        background: #40bd9b;
-        border: 2px solid #40bd9b;
+        background: white;
+        border: 2px solid #86fadb;
         box-shadow: none;
+        color:#ff22aa;
     }
 
     @media only screen and (max-width:1000px){
@@ -284,7 +285,7 @@
             </div>
 
             <div on:click={scrollDown} class="mega">
-                    <p class="para-link">JE M'INCRIS</p>
+                    <p class="para-link">JE M'INSCRIS</p>
             </div>
         </article>
     </div>
