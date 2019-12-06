@@ -3,13 +3,14 @@
     section {
         position: relative;
         width: 100% ;
+        background-color: #f3fffc;
     }
 
     .block {
         
         max-width: 800px;
-        margin: 70px auto;
-        padding: 0 100px;
+        margin: 0px auto;
+        padding: 40px 100px 60px;
     }
 
     label {
@@ -48,7 +49,7 @@
     }
 
     button {
-        background: #278e73;
+        background: #ff22aa;
         color:white;
         padding: 20px 40px;
         border:none;
@@ -56,7 +57,7 @@
         box-shadow: 1px 1px 3px rgba(128, 128, 128, 0.425);
         transition: all 0.25s ease-out;
         cursor: pointer;
-        border-radius:2px;
+        border-radius:10px;
         position: relative;
         left:50%;
         transform: translate(-50%,0%);
@@ -65,7 +66,7 @@
 
     button:focus, button:hover {
         background: #86fadb;
-        color:#278e73;
+        color:#ff22aa;
         box-shadow:none;
         border-radius:50px;
     }
