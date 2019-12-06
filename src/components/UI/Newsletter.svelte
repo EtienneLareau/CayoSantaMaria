@@ -10,7 +10,7 @@
         
         max-width: 800px;
         margin: 0px auto;
-        padding: 40px 100px 60px;
+        padding: 50px 100px 60px;
     }
 
     label {
@@ -29,6 +29,7 @@
     }
 
     h2 {
+        padding-top:20px;
         font-size: 3.2rem;
         line-height: 1;
         text-shadow:1px 1px 2px #86fadb;

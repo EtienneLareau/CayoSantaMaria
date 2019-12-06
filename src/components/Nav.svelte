@@ -185,7 +185,7 @@ function openTopSim() {
 		position: relative;
 		float: right;
 		z-index:2010;
-		padding:2px 30px;
+		padding:2px 20px;
 		cursor: pointer;
 	}
 

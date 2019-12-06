@@ -169,6 +169,7 @@
         /* background: #a7e9d4; */
         background: #86fadb ;
         padding: 70px 0px 10px;
+        margin-bottom:-60px;
     }
 
     .start {
