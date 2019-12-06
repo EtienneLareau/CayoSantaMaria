@@ -53,6 +53,11 @@
         left:0;
         background: rgba(0, 0, 0, 0.112);
     }
+
+    img {
+        width:200px;
+        margin-bottom:10px;
+    }
 </style>
 
 
@@ -62,7 +67,7 @@
         <div class="banner">
             <!-- <img src="{logo}" alt="logo"> -->
             <h2>Foil Kitecamp</h2>
-            <p>Du <span style="font-size:1.5em">11</span> janvier au <span style="font-size:1.5em">17</span> janvier 2020</p>
+            <p>Du <span style="font-size:1.5em">11</span> au <span style="font-size:1.5em">17</span> janvier 2020</p>
             <!-- <a href="/">Leçons de FoilKite</a>
             <a href="/">Inscrivez-vous</a>  -->
         </div>

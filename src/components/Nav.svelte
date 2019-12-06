@@ -62,6 +62,13 @@ function openTopSim() {
 }
 ///////////////////////////////////////////////////////
 
+// SmoothScroll
+
+    function scrollDown() {
+        document.querySelector('#Register').scrollIntoView({ 
+        behavior: 'smooth' });
+    }
+
 </script>
 
 <style>
@@ -168,33 +175,81 @@ function openTopSim() {
 	}
 	img {
 		position: absolute;
-		width:150px;
+		width:200px;
 		top:24px;
 		left:30px;
 		z-index: 7000;
 	}
+
+	.rolldown {
+		position: relative;
+		float: right;
+		z-index:2010;
+		padding:2px 30px;
+		cursor: pointer;
+	}
+
+	p {
+		color:white;
+		border-radius: 10px;
+		background: #ff22aa;
+		padding: 10px 30px;
+		font-size:1.5rem;
+		transition: all 0.25s ease;
+	}
+
+	p:focus, p:hover {
+		color:#ff22aa;
+		background: #86fadb;
+	}
+
+	.fly { display:none }
+
+	@media only screen and (max-width:725px){
+		.fly {
+		display: block;
+		width:40px;
+		position: relative;
+		padding:0;
+		margin-right:40px;
+		}
+		.regEx { display:none; }
+	}
 </style>
 
-<!-- hamburger menu -->
-<div class="menu" on:click={openNav}>
-	<div class="bars first"></div>
-	<div class="bars second"></div>
-	<div class="bars third"></div>
-	
-</div>
+<!-- Register Menu -->
+	<!-- <a class="rolldown" href="#Register">
+		<p class="regEx">Inscrivez-vous</p>
+		<img class="fly" src="/images/flywithus.png" alt="">
+	</a> -->
+	<div class="rolldown" on:click={scrollDown}>
+		<p class="regEx">Inscrivez-vous</p>
+		<img class="fly" src="/images/flywithus.png" alt="">
+	</div>
  <!-- ************* -->
 
-<img src="/images/supatitle.png" alt="Logo KiteTrips.ca">
-<div id="Nav">
-	<!-- <img src="/images/supatitle.png" alt="Logo KiteTrips.ca"> -->
-	<ul class="ul-center">	
-		<li class="vert"><a class='{segment === undefined ? "selected" : ""}' href='.' on:click={closeNav}>Accueil</a></li>
-		<li class="vert"><a class='{segment === "about" ? "selected" : ""}' href='about' on:click={closeNav}>Services</a></li>
-		
-		<!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
-		     the blog data when we hover over the link or tap it on a touchscreen -->
-		<li class="vert"><a rel=prefetch class='{segment === "blog" ? "selected" : ""}' href='blog' on:click={closeNav}>Cours</a></li>
-		<li class="vert"><a class='{segment === "contact" ? "selected" : ""}' href='contact' on:click={closeNav}>Contactez-nous</a></li>
-	</ul>
-	<a href="javascript:void(0)" class="close-Btn" on:click={closeNav}>X</a>
-</div>
+
+
+<!-- hamburger menu -->
+	<!-- <div class="menu" on:click={openNav}>
+		<div class="bars first"></div>
+		<div class="bars second"></div>
+		<div class="bars third"></div>
+	</div> -->
+ <!-- ************* -->
+
+<img src="/images/supatitle2.png" alt="Logo KiteTrips.ca">
+	
+	<!-- <div id="Nav">
+
+		<ul class="ul-center">	
+			<li class="vert"><a class='{segment === undefined ? "selected" : ""}' href='.' on:click={closeNav}>Accueil</a></li>
+			<li class="vert"><a class='{segment === "about" ? "selected" : ""}' href='about' on:click={closeNav}>Services</a></li>
+			
+				for the blog link, we're using rel=prefetch so that Sapper prefetches
+				the blog data when we hover over the link or tap it on a touchscreen 
+			<li class="vert"><a rel=prefetch class='{segment === "blog" ? "selected" : ""}' href='blog' on:click={closeNav}>Cours</a></li>
+			<li class="vert"><a class='{segment === "contact" ? "selected" : ""}' href='contact' on:click={closeNav}>Contactez-nous</a></li>
+		</ul>
+		<a href="javascript:void(0)" class="close-Btn" on:click={closeNav}>X</a>
+	</div> -->

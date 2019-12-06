@@ -67,7 +67,7 @@
         <article>
             <!-- <h2>Valentin Club Perla Blanca</h2> -->
             <h1>Bienvenue au premier voyage dédié au kitefoil</h1>
-                <p>En collaboration avec l’hôtel<span style="font-family: 'feltro-texture-3', sans-serif;">Valentin Perla Blanca</span>, nous vous proposons divers 
+                <p>En collaboration avec l’hôtel<span style="font-family: 'feltro-texture-3', sans-serif;font-weight:600;">Valentin Perla Blanca</span>, nous vous proposons divers 
                 forfaits élaboré spécifiquement pour vous, selon votre budget 
                 et vos attentes. Ce voyage dédié KiteFoil s'adresse au kitefoiler de tous les niveaux: Que vous soyez débutant ou souhaiter peaufiner votre 
                 technique, nous aurons toujours les meilleures solutions à vous proposés.

@@ -1,3 +1,4 @@
+
 <style>
     section {
         position: relative;
@@ -7,7 +8,7 @@
     .block {
         
         max-width: 800px;
-        margin: 100px auto;
+        margin: 70px auto;
         padding: 0 100px;
     }
 
@@ -87,13 +88,16 @@
             padding-right:20px;
         }
     }
-    
+    /* .regBump { padding:10px; } */
+
+    #Register {padding:10px;}
 </style>
 
 <section>
     <div class="block">
+        <div id="Register" class="regBump"></div>
         <h2 class="title">Vous voulez devenir un foileux ?</h2>
-        <p class="para">Inscrivez-vous ci-dessous.<br>Un agent vous contactera dans les prochaines 24 heures.</p>
+        <p class="para">Veuillez remplir le formulaire ci-dessous.<br>Un agent vous contactera dans les prochaines 24 heures.</p>
         <br><br>
         <form name="FoilContactForm" method="POST" Content-Type="application/x-www-form-urlencoded" netlify action="/about">
             <input type="hidden" name="form-name" value="FoilContactForm" />

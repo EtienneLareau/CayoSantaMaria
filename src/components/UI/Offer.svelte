@@ -1,5 +1,23 @@
 <script>
-    
+    function scrollDown() {
+        document.querySelector('#Register').scrollIntoView({ 
+        behavior: 'smooth' });
+    }
+
+    function choiceOne() {
+        document.querySelector('#labalade').scrollIntoView({
+            behavior: 'smooth'});
+    }
+
+    function choiceTwo() {
+        document.querySelector('#lalecon').scrollIntoView({
+            behavior: 'smooth'});
+    }
+
+    function choiceThree() {
+        document.querySelector('#latotale').scrollIntoView({
+            behavior: 'smooth'});
+    }
 </script>
 
 <style>
@@ -72,7 +90,7 @@
         padding:20px;
         color: #86fadb;
         /* background-color: rgb(18, 97, 74); */
-        background: rgb(175, 39, 62) ;
+        background: #ff22aa ;
         border-radius:100px;
         width:80px;
         margin: 0 auto 30px;
@@ -127,14 +145,17 @@
         margin:20px;
     }   
     
-    .choices-line > a {
+    button {
         display:none;
-        font-size: 1.2rem;
+        color:#ff22aa;
+        cursor: pointer;
+        background: transparent;
+        font-size: 1.1rem;
         text-shadow: 1px 1px 3px #86fadb;
         margin:10px;
         text-decoration: none;
-        padding: 10px 20px;
-        border: 1px solid black;
+        padding: 6px 14px;
+        border: 2px solid #ff22aa;
         border-radius:25px;
         width:200px;
         margin: 20px auto;
@@ -142,8 +163,8 @@
         transition: all 0.3s ease-out;
     }
 
-    .choices-line > a:hover {
-        background: #40bd9b;
+    button:hover {
+        background: #a4ffe7;
          box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.351);
          text-shadow: none;
     }
@@ -160,13 +181,14 @@
         text-align: center;
         width:300px;
         margin: 0 auto 40px;
-        border: 2px solid rgb(175, 39, 62);
-        background: rgb(175, 39, 62);
+        border: 2px solid #ff22aa;
+        background: #ff22aa;
         box-shadow: 2px 2px 5px black;
         color:white;
         border-radius:50px;
         padding: 20px 30px;
         transition: all 0.1s ease-in;
+        cursor: pointer;
          }
 
     .para-link:hover {
@@ -188,7 +210,7 @@
      }
 
     @media only screen and (max-width:725px){
-        .choices-line > a {
+        button {
         display:block;
     }
 
@@ -205,9 +227,9 @@
             <h2>SUR LA PLAGE</h2>
             <p class="med-font">3 façons d'en profiter</p>
             <div class="choices-line">
-                <a href="#labalade"><span>&#8594; </span>La Balade </a>
-                <a href="#lalecon"><span>&#8594; </span> La Leçon </a>
-                <a href="#latotale"><span>&#8594; </span> La Totale</a>
+                <button on:click={choiceOne} >La Balade</button>
+                <button on:click={choiceTwo} >La Leçon</button>
+                <button on:click={choiceThree} >La Totale</button>
             </div> 
         </div>
     </div>
@@ -261,9 +283,9 @@
                 </div>
             </div>
 
-            <a href="/" class="mega">
+            <div on:click={scrollDown} class="mega">
                     <p class="para-link">JE M'INCRIS</p>
-            </a>
+            </div>
         </article>
     </div>
 </section>

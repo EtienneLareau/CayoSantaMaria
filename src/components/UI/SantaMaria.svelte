@@ -155,7 +155,7 @@
         font-style: normal;
         font-size: 2.5vw;
         text-align: center;
-        margin-bottom: 60px;
+        margin-bottom: 80px;
     }
 
     .grid-pack {
@@ -168,7 +168,7 @@
         width: 100%;
         /* background: #a7e9d4; */
         background: #86fadb ;
-        padding: 70px 0px 10px;
+        padding: 50px 0px;
     }
 
     .start {
@@ -187,42 +187,110 @@
         height:100%;
         
     }
+
+
+
+
+    h3 {
+        font-size:3.2rem;
+        text-shadow: 1px 1px 3px #86fadb;
+        padding:20px 0 0;
+        margin:0;
+    }
+
+    section {
+        position: relative;
+        max-width: 800px;
+        margin: 0px auto 0px;
+    }
+
+    .resp-container {
+        position: relative;
+        overflow: hidden;
+        padding-top: 56.25%; /* This is 9th / 16th */
+    }
+
+    .resp-iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 0;
+    }
+
+    .cov {
+        position: absolute;
+        left:0;
+        top:0;
+        z-index: 115;
+        background: rgba(189, 189, 189, 0);
+        width:100%;
+        height:100%;
+    }
+
+    @media only screen and (max-width:825px) {
+        .cov {
+            display:none;
+        }
+         h3 {
+            margin-top:0px;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
 </style>
 
-
-<div class="green">
-    <p class="reserved">
-        EN RÉSERVANT AVEC NOUS, vous bénéficierez :
-    </p>
-    <div class="grid-pack">
-        <div class="grid-block">
-            <div class="grid-cont">
-                <img src="shopping-bag-heart.png" alt="">
-                <p>D'une Suite Junior dans notre zone VIP KITE CAMPS en bordure de mer, vous permettant ainsi d'avoir un accès direct à la plage.</p>
-            </div>
-            <div class="grid-cont">
-                <img src="love-boat.png" alt="">
-                <p>Vous pourrez sélectionner votre type de chambre - 2 lits doubles ou 1 lit king - et au rez-de-chaussée ou à l'étage.</p>
-            </div>
-            <div class="grid-cont">
-                <img src="office-work-wireless.png" alt="">
-                <p>La sélection de votre siège dans l'avion est disponible au cout de 45$ (aller & retour)</p>
-            </div>
-        </div>
+<div class="start">
+    <div class="fade">
+        <article>
+            <h2>Cayo Santa Maria</h2>
+            <p>Situé à une quinzaine de kilomètres de Cayo Guillermo, 
+                Cayo Santa Maria vous offre les mêmes conditions de vent,
+                 d'eau chaude turquoise et d'espace, le tout avec un fond 
+                 marin en sable blanc sans roche.</p>
+            <br>
+            
+            <p>Un terrain de jeu exceptionnel à découvrir pour tous les gouts
+             possédant une immense zone de " flat water " à côté du parc 
+             National pour nos débutants et au large de la barrière de 
+             coraux, un terrain de Freestyle avec de la petite vague qui 
+             vous permettra de pratiquer le kitesurf et le hydrofoil en 
+             toute sécurité.</p>
+            <br>
+            
+            <p> À deux pas de votre chambre la plage du Kite Camps Valentin 
+             Club Perla Blanca est un endroit paradisiaque et unique, 
+             qui en font l'un des meilleurs ‘’SPOTS’’ des Caraïbes.</p>
+           
+            
+            
+        </article>
         
-        <div class="grid-block">
-            <div class="grid-cont">
-                <img src="show-hat-magician-1.png" alt="">
-                <p>Un bagage suplémentaire de kitesurf de 20kg sans aucuns frais additionnel.</p>
-            </div>
-            <div class="grid-cont">
-                <img src="whale-body.svg" alt="">
-                <p>Le Transfert aller-retour en autocar pour vous avec votre bagages de kite.</p>
-            </div>
-            <div class="grid-cont">
-                <img src="nautic-sports-sailing-person.svg" alt="">
-                <p>Les Taxes de voyage, taxes d'aéroport, visa cubain, taxes canadienne, taxe du fond d'indemnisation (OPC) des voyageurs du Québec ainsi que les frais de services</p>
-            </div>
-        </div>
+               
+                        <section>
+                            <h3>La plage</h3>
+                            <div class="resp-container">
+                                <div class="cov"></div>
+                                <iframe title="video showing the beach of Cayo Santa Maria"
+                                        class="resp-iframe"
+                                        src="https://www.youtube.com/embed/N6RdFH_6a1Q?controls=0&amp;start=7&end=72;&loop=1&playlist=N6RdFH_6a1Q&autoplay=1&mute=1" 
+                                        frameborder="0" 
+                                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+                                </iframe>
+                            </div>
+                            <!-- <div class="fallback"></div> -->
+                        </section>
+            
     </div>
 </div>

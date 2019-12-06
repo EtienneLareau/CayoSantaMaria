@@ -6,6 +6,7 @@
 	import Services from '../components/UI/Services.svelte';
 	import Newsletter from '../components/UI/Newsletter.svelte';
 	import KiteVideo from '../components/UI/KiteVideo.svelte';
+	import SantaMaria from '../components/UI/SantaMaria.svelte';
 
 </script>
 
@@ -26,11 +27,16 @@
 <!-- offee de servcies des cours Multi logo -->
 <Offer />
 
+<!-- Santa Maria -->
+<SantaMaria />
+
 <!-- video -->
-<Ready />
+<!-- <Ready /> -->
 
  <!-- le mega texte de ben -->
 <Services />
+
+
 
 <Newsletter />
 
