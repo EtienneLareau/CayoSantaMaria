@@ -77,8 +77,8 @@
     }
 
     .reserved {
-        font-family: 'battlefin', sans-serif;
-        font-weight: 900;
+         font-family: bicyclette, sans-serif;
+        font-weight: 400;
         font-style: normal;
         font-size: 2.5vw;
         text-align: center;
@@ -93,7 +93,6 @@
 
     .green {
         width: 100%;
-        /* background: #a7e9d4; */
         background: #86fadb ;
         padding: 70px 0px 10px;
         margin-bottom:-60px;
@@ -102,9 +101,7 @@
 
 
 <div class="green">
-    <p class="reserved">
-        EN RÉSERVANT AVEC NOUS, vous bénéficierez :
-    </p>
+    <p class="reserved">EN RÉSERVANT AVEC NOUS, vous bénéficierez :</p>
     <div class="grid-pack">
         <div class="grid-block">
             <div class="grid-cont">

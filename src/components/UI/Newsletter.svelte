@@ -62,7 +62,6 @@
         position: relative;
         left:50%;
         transform: translate(-50%,0%);
-        
     }
 
     button:focus, button:hover {
@@ -90,9 +89,9 @@
             padding-right:20px;
         }
     }
-    /* .regBump { padding:10px; } */
 
     #Register {padding:20px;}
+    
 </style>
 
 <section>

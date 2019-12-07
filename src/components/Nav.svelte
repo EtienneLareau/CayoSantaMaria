@@ -13,53 +13,51 @@
 	// console.log(readMenu);
 
 	/// Function for opening and closing the menu bar ///
-	function openNav() {
-  		document.getElementById("Nav").style.width="100%";
-		document.getElementById("Nav").style.opacity="1";
-		document.getElementById("Nav").style.display="inherit";
-		 
+	// function openNav() {
+  	// 	document.getElementById("Nav").style.width="100%";
+	// 	document.getElementById("Nav").style.opacity="1";
+	// 	document.getElementById("Nav").style.display="inherit";		 
+	// }
 
-	}
-	function closeNav() {
-  		document.getElementById("Nav").style.width="0%";
-		  document.getElementById("Nav").style.opacity="0";
-		  document.getElementById("Nav").style.display="none";
-		  
-	}
+	// function closeNav() {
+  	// 	document.getElementById("Nav").style.width="0%";
+	// 	  document.getElementById("Nav").style.opacity="0";
+	// 	  document.getElementById("Nav").style.display="none";	  
+	// }
 
 
 	/// Function for sub menu and rotating arrow Simon ///
-function openSubSim() {
-	document.getElementById("openSubSim").style.height="210px";
-	document.getElementById("arrowChirSim").style.color="#f49a6d";
+// function openSubSim() {
+// 	document.getElementById("openSubSim").style.height="210px";
+// 	document.getElementById("arrowChirSim").style.color="#f49a6d";
 	
-	var el = document.getElementById("arrowChirSim");
-  	el.classList.remove("rotatingArrowTop");
+// 	var el = document.getElementById("arrowChirSim");
+//   	el.classList.remove("rotatingArrowTop");
 
-	var element, name, arr;
-	element = document.getElementById("arrowChirSim");
-	name = "rotatingArrow";
-	arr = element.className.split(" ");
-	if (arr.indexOf(name) == -1) {
-	  element.className += " " + name;
-	}
-}
+// 	var element, name, arr;
+// 	element = document.getElementById("arrowChirSim");
+// 	name = "rotatingArrow";
+// 	arr = element.className.split(" ");
+// 	if (arr.indexOf(name) == -1) {
+// 	  element.className += " " + name;
+// 	}
+// }
 
-function openTopSim() {
-	document.getElementById("openSubSim").style.height="0px";
-	document.getElementById("arrowChirSim").style.color="#18385f";
+// function openTopSim() {
+// 	document.getElementById("openSubSim").style.height="0px";
+// 	document.getElementById("arrowChirSim").style.color="#18385f";
 	
-	var el = document.getElementById("arrowChirSim");
-  	el.classList.remove("rotatingArrow");
+// 	var el = document.getElementById("arrowChirSim");
+//   	el.classList.remove("rotatingArrow");
 
-	var element, name, arr;
-	element = document.getElementById("arrowChirSim");
-	name = "rotatingArrowTop";
-	arr = element.className.split(" ");
-	if (arr.indexOf(name) == -1) {
-	  element.className += " " + name;
-	}
-}
+// 	var element, name, arr;
+// 	element = document.getElementById("arrowChirSim");
+// 	name = "rotatingArrowTop";
+// 	arr = element.className.split(" ");
+// 	if (arr.indexOf(name) == -1) {
+// 	  element.className += " " + name;
+// 	}
+// }
 ///////////////////////////////////////////////////////
 
 // SmoothScroll
@@ -74,11 +72,11 @@ function openTopSim() {
 <style>
 	
 	/* clearfix */
-	ul::after {
+	/* ul::after {
 		content: '';
 		display: block;
 		clear: both;
-	}
+	} */
 /* 
 	.selected {
 		position: relative;
@@ -96,7 +94,7 @@ function openTopSim() {
 		display: block;
 		bottom: -1px;
 	} */
-
+/* 
 	a { text-decoration: none;
 		transition: color 0.2s ease ;
 		margin-left:-70px;
@@ -104,27 +102,27 @@ function openTopSim() {
 		font-size:7vw;
 		font-family: 'battlefin', sans-serif;
         font-weight: 700;
-		font-style: normal; }
+		font-style: normal; } */
 
 	@media only screen and (orientation:landscape) {
-		a {
+		/* a {
 			font-size:2rem;
-		}
+		} */
 	}
 
-	a:hover {
+	/* a:hover {
 		color:pink;
-	}
+	} */
 
-	.ul-center {
+	/* .ul-center {
 		
 		top:50%;
 		position: relative;
 		transform: translate(0,-50%);
 		list-style-type: none;
-	}
+	} */
 
-	.vert { list-style-type: none;
+	/* .vert { list-style-type: none;
 			margin: 0 0 30px 0;
 			text-align: center; }
 
@@ -135,9 +133,9 @@ function openTopSim() {
 		z-index:2010;
 		padding:30px;
 		cursor: pointer;
-	}
+	} */
 
-	.bars { width:3em;
+	/* .bars { width:3em;
 			height:4px;
 			margin-bottom:6px;
 			background: #ff22aa;
@@ -156,9 +154,9 @@ function openTopSim() {
 			height:100%;
 			background: #86fadb;
 			opacity:1;
-			transition: all 0.15s ease-out, width 0s; }
+			transition: all 0.15s ease-out, width 0s; } */
 
-	.close-Btn {
+	/* .close-Btn {
 		position: absolute;
 		right:0;
 		top:0;
@@ -172,7 +170,8 @@ function openTopSim() {
         font-weight: 700;
 		font-style: normal;
 		text-decoration: none;
-	}
+	} */
+
 	img {
 		position: absolute;
 		width:200px;
@@ -198,8 +197,8 @@ function openTopSim() {
 		font-size:1.5rem;
 		transition: all 0.25s ease;
 		font-family: bicyclette, sans-serif;
-font-weight: 400;
-font-style: normal;
+		font-weight: 400;
+		font-style: normal;
 	}
 
 	p:focus, p:hover {

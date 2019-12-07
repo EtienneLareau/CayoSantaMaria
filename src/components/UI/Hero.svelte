@@ -4,10 +4,7 @@
 
 
 <style>
-
-    
-
-     section { position: relative; }
+    section { position: relative; }
 
     .container { width:100%;
                  height:100vh;
@@ -39,7 +36,9 @@
         font-weight: 400;
         line-height: 1.3; }
 
+
     @media only screen and (max-width:700px){
+        
         h2 { font-size:3.1rem;
              line-height:1.1 }
 
@@ -49,7 +48,7 @@
         .container { background: url('/images/covFoilS2W.jpg') right top no-repeat;
                      background-size: cover; } 
     }
-
+    /**/
     .dark {
         width:100%;
         height:100%;
@@ -83,7 +82,7 @@
 		-webkit-transform: rotate(360deg);
 		}
 	}
-@-webkit-keyframes rotating
+    @-webkit-keyframes rotating
 	{
 	from
 		{
@@ -96,7 +95,8 @@
 		-webkit-transform: rotate(360deg);
 		}
 	}
-.rotating
+    
+    .rotating
 	{
 	-webkit-animation: rotating 6s linear infinite;
 	-moz-animation: rotating 6s linear infinite;
@@ -111,6 +111,7 @@
         right:10px;
         bottom:10px;
     }
+    
     .mid-text {
         position:absolute;
         right:57px;

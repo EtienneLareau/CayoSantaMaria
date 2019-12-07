@@ -12,7 +12,7 @@
 
 
 <svelte:head>
-	<title>Venez Foiler à Cayo Santa Maria</title>
+	<title>Venez apprendre à "kitefoiler" à Cayo Santa Maria, Cuba.</title>
 </svelte:head>
 
 <!-- Mega banniere avec menu et choix d'info boutons -->
@@ -35,8 +35,6 @@
 
  <!-- le mega texte de ben -->
 <Services />
-
-
 
 <Newsletter />
 

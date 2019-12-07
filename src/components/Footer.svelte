@@ -4,25 +4,8 @@
     width:100%;
     padding: 30px;
     top:0;
-}
-    .gid {
-        width:90%;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-gap:2em;
-        margin: 0 auto;
     }
-
-    .gid-cont {
-        background: palevioletred;
-        height:300px;
-    }
-
-    .gid-cont > h2,p {
-        margin: 20px 0 0 20px;
-    }
-
-
+   
     .back {
         max-width:80%;
         margin:0 auto;
@@ -42,7 +25,7 @@
     }
 
     .img-cont {
-    max-width:250px;
+        max-width:250px;
     }
 
     img {
@@ -55,17 +38,17 @@
         width:100%;
         height:40px;
         background: black;
-         display: flex;
+        display: flex;
         align-items: center;
         justify-content: center;
     }
 
     small {
         color:#86fadb;
-        font-family: 'battlefin', sans-serif;
-         font-weight: 400;
-         font-style: normal;
-         letter-spacing: 1.2px;
+        font-family: bicyclette, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: 1.2px;
     }
 
     @media only screen and (max-width:800px) {
@@ -108,25 +91,3 @@
 <div class="year-banner">
      <small>copyright 2019 - Bientôt 2020</small>
 </div>
-
-
-
-<!-- <footer>
-    <div class="foo">
-        <div class="gid">
-        <div class="gid-cont">
-            <h2>Menu</h2>
-            <p class="menu-link">Le voyage</p>
-            <p class="menu-link">Les cours</p>
-            <p class="menu-link">Le Spot</p>
-            <p class="menu-link">Les avantages</p>
-            <p class="menu-link">Je m'inscris</p>
-        </div>
-        <div class="gid-cont"></div>
-        <div class="gid-cont"></div>
-        
-        </div>
-    
-    
-    </div>
-</footer> -->

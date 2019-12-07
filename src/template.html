@@ -10,7 +10,7 @@
 	<meta name="keywords" content="Odile, Etienne, numérique, imprimé, encre, code, développement, vague, précis, intuitif, amusant, extraordinaire, design, web design, front-end, back-end, react, vue, eleventy,">
 	  
 	<meta name="robots" content="index,follow" />
-	<link rel="canonical" href="https://cayosantamaria.netlify.com/"/>
+	<link rel="canonical" href="https://foilcayosantamaria.com/"/>
 
 	%sapper.base%
 
@@ -18,28 +18,16 @@
 	<link rel='manifest' href='manifest.json'>
 	<link rel='icon' type='image/png' href='favicon.png'>
 
-
 	<link rel="stylesheet" href="https://use.typekit.net/upy1tce.css">
 
-
-
-	<!-- Sapper generates a <style> tag containing critical CSS
-	     for the current page. CSS for the rest of the app is
-	     lazily loaded when it precaches secondary pages -->
 	%sapper.styles%
 
-	<!-- This contains the contents of the <svelte:head> component, if
-	     the current page has one -->
 	%sapper.head%
+
 </head>
 <body>
-	<!-- The application will be rendered inside this element,
-	     because `src/client.js` references it -->
 	<div id='sapper'>%sapper.html%</div>
 
-	<!-- Sapper creates a <script> tag containing `src/client.js`
-	     and anything else it needs to hydrate the app and
-	     initialise the router -->
 	%sapper.scripts%
 </body>
 </html>

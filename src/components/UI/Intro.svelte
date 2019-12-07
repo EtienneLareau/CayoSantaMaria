@@ -7,8 +7,7 @@
         max-width: 820px;
         width: 80%;
         margin: 40px auto 0;
-        padding: 80px 0;
-    }
+        padding: 80px 0; }
 
     h1 { font-family: bicyclette, sans-serif;
          font-weight: 400;
@@ -25,17 +24,10 @@
         font-size: 1.7rem ;
         padding: 2.3em 20px 0; }
 
-    /* .beach {background-image: url('/images/jumpLight.jpeg');
-            background-position: center ;
-            background-repeat: no-repeat ;
-            background-size: cover ;
-            margin-top:-42px; } */
-
-        .beach {
-            background-color: #86fadb19;
-            margin-top:-42px;
-            
-        }
+    .beach {
+        background-color: #86fadb19;
+        margin-top:-42px;
+    }
 
     .cover {
         position: relative;
@@ -45,7 +37,9 @@
         /* background: #06855de4; */
     }
 
+
     @media only screen and (max-width:725px) {
+        
         article {
             width:100%;
             padding:30px 0px 40px;

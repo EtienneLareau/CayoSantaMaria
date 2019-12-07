@@ -40,10 +40,8 @@
         padding: 50px 0 50px;
     }
 
-     .first-art { text-align: center ;
-                  margin: 0px auto; }
-
-    
+    .first-art { text-align: center ;
+                margin: 0px auto; }
 
     h2 { font-family: bicyclette, sans-serif;
         font-weight: 400;
@@ -66,7 +64,6 @@
                 background: none;
                 padding:0 10px 15px;
                 text-align: center; }
-    /* //// */
 
     .grid-logo {
         margin: 0px;
@@ -97,49 +94,15 @@
         box-shadow:2px 2px 10px rgba(128, 128, 128, 0.568);
     }
 
-    .numbers-choices {
-        position: absolute;
-        top:50%;
-        left:50%;
-        transform: translate(-50%,-50%);
-        font-family: 'feltro-texture-3', sans-serif;
-        font-size: 16px;
-        color: #86fadb;
-        text-align: center;
-        line-height:1;
-    }
-
-
-    img {
-        width:70px;
-        text-align:center;
-        position: relative;
-        left:50%;
-        transform: translate(-50%,0%);
-    }
-
     h3 {
         text-align: center;
         font-size: 2.1rem;
         margin: 15px 0;
         line-height:1;
         font-family: bicyclette, sans-serif;
-font-weight: 400;
-font-style: normal;
+        font-weight: 400;
+        font-style: normal;
     }
-
-    .bk-circles {
-        
-        position: relative;
-        width:40px;
-        height:40px;
-        background: rgb(175, 39, 62) ;
-        border-radius: 100px;
-        box-shadow:2px 2px 10px rgba(128, 128, 128, 0.568);
-    }
-
-    .numbers-names { font-size: 1.3rem;
-                     color:darkgreen; }
 
     .choices-line {
         margin:20px;
@@ -207,11 +170,8 @@ font-style: normal;
 
     @media only screen and (max-width:1000px){
         .grid-logo > div {
-        padding: 0 20px;
-
+        padding: 0 20px; }
     }
-    }
-
 
      @media only screen and (min-width:850px){
         .grid-logo { grid-template-columns: 1fr 1fr 1fr; }
@@ -230,8 +190,6 @@ font-style: normal;
             margin-bottom:60px;
         }
     }
-
-
 
 </style>
 
@@ -296,9 +254,8 @@ font-style: normal;
                     </div>
                 </div>
             </div>
-
             <div on:click={scrollDown} class="mega">
-                    <p class="para-link">JE M'INSCRIS</p>
+                <p class="para-link">JE M'INSCRIS</p>
             </div>
         </article>
     </div>

@@ -38,16 +38,6 @@
         border: 0;
     }
 
-
-    .fallback {
-        position: absolute;
-        top:0;
-        left:0;
-        bottom:0;
-        right:0;
-        z-index: 100;
-    }
-
     .cov {
         position: absolute;
         left:0;
