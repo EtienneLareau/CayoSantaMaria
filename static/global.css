@@ -11,13 +11,13 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
 	
-	font-family: 'feltro-texture-3', sans-serif;
+	font-family: bicyclette, sans-serif;
 	font-weight: 400;
 	font-style: normal;
 }
 
-p, label {
-	font-family: 'battlefin', sans-serif;
+p, label, button {
+	font-family: bicyclette, sans-serif;
 	font-weight: 400;
 	font-style: normal;
 }

@@ -187,6 +187,7 @@ function openTopSim() {
 		z-index:2010;
 		padding:2px 20px;
 		cursor: pointer;
+		
 	}
 
 	p {
@@ -196,6 +197,9 @@ function openTopSim() {
 		padding: 10px 30px;
 		font-size:1.5rem;
 		transition: all 0.25s ease;
+		font-family: bicyclette, sans-serif;
+font-weight: 400;
+font-style: normal;
 	}
 
 	p:focus, p:hover {

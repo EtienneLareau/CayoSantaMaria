@@ -3,66 +3,23 @@
     
 
 <style>
-    article {
-        max-width: 800px;
-        width: 80% ;
-        margin: 40px auto 0;
-        padding: 100px 0 0px;
-        /* background: #70fad581 ; */
-    }
-    /* article > p {
-        
-        font-size:1.3rem !important;
-    } */
-
-
-    p {
-        /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
-        font-size: 1.3rem ;
-        font-family: 'battlefin', sans-serif;
-        font-weight: 400;
-        font-style: normal;
-        padding: 5px;
-    }
-
-    h2 {
-        font-family: 'feltro-texture-3', sans-serif;
-        font-size: 4.2rem;
-        margin-left: -65px;
-        text-shadow: 2px 2px 5px rgba(204, 145, 34, 0.612);
-    }
-
-    img {
-        width:80px;
-        margin:20px 0 -10px;
-        float:left;
-        padding: 0px 15px;
-    }
-
-    .grid-block {
-        max-width: 1100px;
-        width: 80% ;
-        position: relative;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-gap: 40px;
-        margin: 0 auto;
-    }
-
-
-    @media only screen and (min-width:766px) and (max-width:1115px) {
-         .grid-block {
+        .grid-block {
+            display:grid;
+            grid-template-columns: 1fr 1fr 1fr ;
             grid-gap:20px;
             padding:0px;
-            width:100%;
-        } 
+            max-width:90%;
+            margin:0 auto;
+        }
+
         p {
-            font-family: 'battlefin', sans-serif;
+            font-family: bicyclette, sans-serif;
             font-weight: 400;
             font-style: normal;
             font-size: 1.3rem ;
             padding: 0 1em;
-        }
+            }
+
         img {
             width:60px;
             margin:0;
@@ -72,28 +29,20 @@
             float:none;
             padding: 0px 0px;
         }
+
         .reserved {
             font-size: 1.7rem !important;
             padding: 0.8em 1em;
         }
+
         .grid-cont {
             padding: 15px 0;
-            margin: 15px 15px;
+            margin: 15px 15px 30px;
+            text-align: left;
+            background-color: #6afed7 ;
         }
-        h2 {
-        font-family: 'feltro-texture-3', sans-serif;
-        font-size: 3.2rem;
-        padding: 0 20px;
-        margin-left:0;
-        text-shadow: 2px 2px 5px rgba(204, 145, 34, 0.612);
-        }
-    }
-
-
-    @media only screen and (max-width:765px) {
-        article {
-            width:100%;
-        }
+    
+    @media only screen and (max-width:865px) {
         .grid-block {
             display:block;
             grid-template-columns: 1fr ;
@@ -102,7 +51,7 @@
             width:100%;
         }
         p {
-            font-family: 'battlefin', sans-serif;
+           font-family: bicyclette, sans-serif;
             font-weight: 400;
             font-style: normal;
             padding: 0 1em;
@@ -125,29 +74,7 @@
             padding: 15px 0;
             margin: 15px 0;
         }
-        h2 {
-        font-family: 'feltro-texture-3', sans-serif;
-        font-size: 2.1rem;
-        padding: 0 20px 10px;
-        text-align: center;
-        text-shadow: 2px 2px 5px rgba(204, 145, 34, 0.612);
-        }
     }
-    /* //////////////// */
-
-    .grid-cont {
-        /* background: rgba(152, 251, 152, 0.151); */
-        text-align: left;
-        /* background: rgb(181, 234, 217); */
-        background-color: #6afed7 ;
-        margin:0 0 30px;
-    }
-
-    /* .center {
-        position: relative;
-        left:50%;
-        transform: translate(-50%,0%);
-    } */
 
     .reserved {
         font-family: 'battlefin', sans-serif;
@@ -170,23 +97,6 @@
         background: #86fadb ;
         padding: 70px 0px 10px;
         margin-bottom:-60px;
-    }
-
-    .start {
-        margin-top:-40px;
-        background-image: url('/images/coursLight.jpeg');
-        background-position: center;
-        background-repeat: no-repeat ;
-        background-size: cover;
-    }
-
-    .fade {
-        position: relative;
-        z-index: 100;
-        background: rgba(255, 255, 255, 0.603);
-        width:100%;
-        height:100%;
-        
     }
 </style>
 

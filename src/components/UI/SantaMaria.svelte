@@ -18,8 +18,8 @@
 
     p {
         /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
-        font-size: 1.3rem ;
-        font-family: 'battlefin', sans-serif;
+        font-size: 1.7rem ;
+        font-family: bicyclette, sans-serif;
         font-weight: 400;
         font-style: normal;
         padding: 5px;
@@ -28,7 +28,7 @@
     h2 {
         font-family: 'feltro-texture-3', sans-serif;
         font-size: 4.2rem;
-        margin-left: -65px;
+        
         text-shadow: 2px 2px 5px #86fadb;
     }
 
@@ -57,10 +57,10 @@
             width:100%;
         } 
         p {
-            font-family: 'battlefin', sans-serif;
+           font-family: bicyclette, sans-serif;
             font-weight: 400;
             font-style: normal;
-            font-size: 1.3rem ;
+            font-size: 1.7rem ;
             padding: 0 1em;
         }
         img {
@@ -84,7 +84,6 @@
         font-family: 'feltro-texture-3', sans-serif;
         font-size: 3.2rem;
         padding: 0 20px;
-        margin-left:0;
         text-shadow: 2px 2px 5px #86fadb;
         }
     }
@@ -102,7 +101,7 @@
             width:100%;
         }
         p {
-            font-family: 'battlefin', sans-serif;
+            font-family: bicyclette, sans-serif;
             font-weight: 400;
             font-style: normal;
             padding: 0 1em;

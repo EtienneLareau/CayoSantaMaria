@@ -45,14 +45,14 @@
 
     
 
-    h2 { font-family: 'battlefin', sans-serif;
-         font-weight: 400;
-         font-style: normal;
+    h2 { font-family: bicyclette, sans-serif;
+        font-weight: 400;
+        font-style: normal;
          font-size: 3.2rem;
          padding: 0 0px;
          text-shadow: 1px 1px 3px rgb(18, 97, 74); }
 
-    p { font-family: 'battlefin', sans-serif;
+    p { font-family: bicyclette, sans-serif;
         font-weight: 400;
         font-style: normal;
         font-size: 1.3rem ;
@@ -123,9 +123,9 @@
         font-size: 2.1rem;
         margin: 15px 0;
         line-height:1;
-        font-family: 'battlefin', sans-serif;
-        font-weight: 400;
-        font-style: normal;
+        font-family: bicyclette, sans-serif;
+font-weight: 400;
+font-style: normal;
     }
 
     .bk-circles {
@@ -171,15 +171,17 @@
 
     .mega {
         text-decoration: none;
+        padding: 0 10px;
         
     }
 
-    .para-link { font-family: 'battlefin', sans-serif;
+    .para-link { 
+        font-family: bicyclette, sans-serif;
         font-weight: 400;
         font-style: normal;
         font-size: 1.5rem ;
         text-align: center;
-        width:300px;
+        max-width:300px;
         margin: 0 auto 40px;
         border: 2px solid #ff22aa;
         background: #ff22aa;
