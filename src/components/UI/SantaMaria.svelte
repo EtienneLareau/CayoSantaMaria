@@ -7,7 +7,7 @@
         max-width: 800px;
         width: 80% ;
         margin: 40px auto 0;
-        padding: 100px 0 0px;
+        padding: 60px 0 0px;
         /* background: #70fad581 ; */
     }
     /* article > p {
@@ -29,7 +29,7 @@
         font-family: 'feltro-texture-3', sans-serif;
         font-size: 4.2rem;
         margin-left: -65px;
-        text-shadow: 2px 2px 5px rgba(204, 145, 34, 0.612);
+        text-shadow: 2px 2px 5px #86fadb;
     }
 
     img {
@@ -85,7 +85,7 @@
         font-size: 3.2rem;
         padding: 0 20px;
         margin-left:0;
-        text-shadow: 2px 2px 5px rgba(204, 145, 34, 0.612);
+        text-shadow: 2px 2px 5px #86fadb;
         }
     }
 
@@ -127,10 +127,10 @@
         }
         h2 {
         font-family: 'feltro-texture-3', sans-serif;
-        font-size: 2.1rem;
+        font-size: 2.7rem;
         padding: 0 20px 10px;
         text-align: center;
-        text-shadow: 2px 2px 5px rgba(204, 145, 34, 0.612);
+        text-shadow: 2px 2px 5px #86fadb;
         }
     }
     /* //////////////// */
@@ -234,20 +234,11 @@
             display:none;
         }
          h3 {
+             font-size: 1.9rem;
+             text-align: center;
             margin-top:0px;
         }
     }
-
-
-
-
-
-
-
-
-
-
-
 
 </style>
 
@@ -259,7 +250,7 @@
                 Cayo Santa Maria vous offre les mêmes conditions de vent,
                  d'eau chaude turquoise et d'espace, le tout avec un fond 
                  marin en sable blanc sans roche.</p>
-            <br>
+            
             
             <p>Un terrain de jeu exceptionnel à découvrir pour tous les gouts
              possédant une immense zone de " flat water " à côté du parc 
@@ -267,7 +258,7 @@
              coraux, un terrain de Freestyle avec de la petite vague qui 
              vous permettra de pratiquer le kitesurf et le hydrofoil en 
              toute sécurité.</p>
-            <br>
+            
             
             <p> À deux pas de votre chambre la plage du Kite Camps Valentin 
              Club Perla Blanca est un endroit paradisiaque et unique, 

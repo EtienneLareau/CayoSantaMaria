@@ -208,12 +208,13 @@ function openTopSim() {
 	@media only screen and (max-width:725px){
 		.fly {
 		display: block;
-		width:40px;
+		width:30px;
 		position: relative;
 		padding:0;
 		margin-right:40px;
 		}
 		.regEx { display:none; }
+		img { width:125px; }
 	}
 </style>
 

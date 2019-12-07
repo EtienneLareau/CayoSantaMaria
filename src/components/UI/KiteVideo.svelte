@@ -64,6 +64,8 @@
         }
         h2 {
             margin-top:40px;
+            font-size: 1.9rem;
+            text-align: center;
         }
     }
 </style>

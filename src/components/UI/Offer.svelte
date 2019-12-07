@@ -198,6 +198,11 @@
         color:#ff22aa;
     }
 
+    .prix {
+        color: #ff22aa;
+        font-size:1.5rem;
+    }
+
     @media only screen and (max-width:1000px){
         .grid-logo > div {
         padding: 0 20px;
@@ -208,13 +213,20 @@
 
      @media only screen and (min-width:850px){
         .grid-logo { grid-template-columns: 1fr 1fr 1fr; }
+
+        .choix {
+            margin-bottom:60px;
+        }
      }
 
     @media only screen and (max-width:725px){
         button {
         display:block;
-    }
+        }
 
+        .choix {
+            margin-bottom:60px;
+        }
     }
 
 
@@ -249,7 +261,6 @@
                     <p>Un service de décollage et d'attérissage de votre aile de kitesurf - fait par un kitelauncher niv.3</p>
                     <div class="button-prix">
                         <p class="prix">Prix pour la semaine : $45</p>
-                        
                     </div>
                 </div>
                 <div id="lalecon" class="choix">
