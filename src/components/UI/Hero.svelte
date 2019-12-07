@@ -129,6 +129,6 @@
             <!-- <p>Du <span style="font-size:1.5em">11</span> au <span style="font-size:1.5em">17</span> janvier 2020</p> -->
         </div>
             <p class="mid-text">Prochain<br>voyage</p>
-          <img class="rotating" src="/images/Circle_dates2.png" alt="Les dates du voyage dédié Foil">
+          <img class="rotating" src="/images/Circle_dates3.png" alt="Les dates du voyage dédié Foil">
     </div>
 </section>
