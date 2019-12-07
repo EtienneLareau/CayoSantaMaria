@@ -5,6 +5,8 @@
 
 <style>
 
+    
+
      section { position: relative; }
 
     .container { width:100%;
@@ -42,7 +44,7 @@
         p { font-size:1.3rem;
             line-height:1.3; }
 
-        .container { background: url('/images/covFoilS2.jpg') right top no-repeat;
+        .container { background: url('/images/covFoilS2W.jpg') right top no-repeat;
                      background-size: cover; } 
     }
 
@@ -52,11 +54,69 @@
         top:0;
         left:0;
         background: rgba(0, 0, 0, 0.112);
+        /* background: #86fadbe9; */
     }
 
     img {
         width:200px;
         margin-bottom:10px;
+    }
+
+    @keyframes rotating
+	{
+	from
+		{
+		transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+		-webkit-transform: rotate(0deg);
+		}
+	to
+		{
+		transform: rotate(360deg);
+		-o-transform: rotate(360deg);
+		-ms-transform: rotate(360deg);
+		-moz-transform: rotate(360deg);
+		-webkit-transform: rotate(360deg);
+		}
+	}
+@-webkit-keyframes rotating
+	{
+	from
+		{
+		transform: rotate(0deg);
+		-webkit-transform: rotate(0deg);
+		}
+	to
+		{
+		transform: rotate(360deg);
+		-webkit-transform: rotate(360deg);
+		}
+	}
+.rotating
+	{
+	-webkit-animation: rotating 6s linear infinite;
+	-moz-animation: rotating 6s linear infinite;
+	-ms-animation: rotating 6s linear infinite;
+	-o-animation: rotating 6s linear infinite;
+	animation: rotating 6s linear infinite;
+	}
+
+    img {
+        width:200px;
+        position:absolute;
+        right:10px;
+        bottom:10px;
+    }
+    .mid-text {
+        position:absolute;
+        right:57px;
+        bottom:50px;
+        text-align: center;
+        color:white;
+        font-size:1.7rem;
+        text-shadow: none;
     }
 </style>
 
@@ -66,7 +126,9 @@
         <div class="dark"></div>
         <div class="banner">
             <h2>Foil Kitecamp</h2>
-            <p>Du <span style="font-size:1.5em">11</span> au <span style="font-size:1.5em">17</span> janvier 2020</p>
+            <!-- <p>Du <span style="font-size:1.5em">11</span> au <span style="font-size:1.5em">17</span> janvier 2020</p> -->
         </div>
+            <p class="mid-text">Prochain<br>voyage</p>
+          <img class="rotating" src="/images/Circle_dates2.png" alt="Les dates du voyage dédié Foil">
     </div>
 </section>
