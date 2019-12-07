@@ -121,6 +121,16 @@
         font-size:1.7rem;
         text-shadow: none;
     }
+
+    @media only screen and (max-width:825px){
+        img {
+            bottom:50px;
+        }
+
+        .mid-text {
+            bottom:90px;
+        }
+    }
 </style>
 
 
@@ -132,6 +142,6 @@
             <!-- <p>Du <span style="font-size:1.5em">11</span> au <span style="font-size:1.5em">17</span> janvier 2020</p> -->
         </div>
             <p class="mid-text">Prochain<br>voyage</p>
-          <img class="rotating" src="/images/Circle_dates3.png" alt="Les dates du voyage dédié Foil">
+            <img class="rotating" src="/images/Circle_dates3.png" alt="Les dates du voyage dédié Foil">
     </div>
 </section>
