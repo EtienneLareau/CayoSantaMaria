@@ -24,6 +24,8 @@
         margin:0 0 30px 0;
         color: black;
         text-align: center;
+        font-family: 'feltro-texture-3', sans-serif;
+        text-shadow: 1px 1px 2px #86fadb;
     }
 
     .img-cont {
@@ -74,14 +76,13 @@
             padding:0px;
         }
         footer {
-            padding: 90px 0px 50px;
+            padding: 90px 0px 20px;
             margin-top:-60px;
         }
     }
 </style>
 
 <footer>
-
     <div class="back">
         <h2>Voyage en collaboration avec:</h2>
         <div class="grido">

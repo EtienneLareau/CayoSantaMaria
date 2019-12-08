@@ -25,8 +25,12 @@
     }
 
     p {
-        font-size: 1.3rem ;
+        font-size: 1.5rem ;
         margin:0;
+    }
+
+    .para {
+        font-size:1.5rem ;
     }
 
     h2 {
