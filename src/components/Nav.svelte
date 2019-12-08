@@ -95,20 +95,6 @@
 		bottom: -1px;
 	} */
 /* 
-	a { text-decoration: none;
-		transition: color 0.2s ease ;
-		margin-left:-70px;
-		color:rgb(28, 28, 28);
-		font-size:7vw;
-		font-family: 'battlefin', sans-serif;
-        font-weight: 700;
-		font-style: normal; } */
-
-	@media only screen and (orientation:landscape) {
-		/* a {
-			font-size:2rem;
-		} */
-	}
 
 	/* a:hover {
 		color:pink;
@@ -219,6 +205,7 @@
 		.regEx { display:none; }
 		img { width:125px; }
 	}
+
 </style>
 
 <!-- Register Menu -->
