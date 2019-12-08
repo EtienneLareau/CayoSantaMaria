@@ -2,6 +2,7 @@
 <style>
     section {
         position: relative;
+        z-index: 15;
         width: 100% ;
         background-color: #f3fffc;
     }

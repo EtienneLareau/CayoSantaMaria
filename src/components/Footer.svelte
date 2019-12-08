@@ -1,5 +1,7 @@
 <style>
     footer {
+        position: relative;
+        z-index: 15;
     background-color: #f3fffc;
     width:100%;
     padding: 30px;
@@ -35,6 +37,8 @@
     }
 
     .year-banner {
+        position: relative;
+        z-index: 15;
         width:100%;
         height:40px;
         background: black;

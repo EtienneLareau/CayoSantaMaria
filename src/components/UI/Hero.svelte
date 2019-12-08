@@ -1,14 +1,16 @@
 <script>
     let logo = 'images/LogoOnly.png';
+    import RotateWhite from '../../components/UI/RotateWhite.svelte';
 </script>
 
 
 <style>
-    section { position: relative; }
+    section { position: relative;
+              z-index:10; }
 
     .container { width:100%;
                  height:100vh;
-                 background: url('/images/covFoil.jpeg') right top no-repeat;
+                 background: url('/images/covFoilS4.jpg') right top no-repeat;
                  background-size: cover; }
 
     .banner { position: absolute ;
@@ -45,7 +47,7 @@
         p { font-size:1.3rem;
             line-height:1.3; }
 
-        .container { background: url('/images/covFoilS2W.jpg') right top no-repeat;
+        .container { background: url('/images/covFoilS4W.jpg') center top no-repeat;
                      background-size: cover; } 
     }
     /**/
@@ -98,22 +100,24 @@
     
     .rotating
 	{
-	-webkit-animation: rotating 6s linear infinite;
-	-moz-animation: rotating 6s linear infinite;
-	-ms-animation: rotating 6s linear infinite;
-	-o-animation: rotating 6s linear infinite;
-	animation: rotating 6s linear infinite;
+	-webkit-animation: rotating 8s linear infinite;
+	-moz-animation: rotating 8s linear infinite;
+	-ms-animation: rotating 8s linear infinite;
+	-o-animation: rotating 8s linear infinite;
+	animation: rotating 8s linear infinite;
 	}
 
     img {
         width:200px;
-        position:absolute;
+        position:fixed;
+        z-index: 3;
         right:10px;
         bottom:10px;
     }
     
     .mid-text {
-        position:absolute;
+        position:fixed;
+        z-index: 3;
         right:57px;
         bottom:50px;
         text-align: center;
@@ -141,7 +145,8 @@
             <h2>Foil Kitecamp</h2>
             <!-- <p>Du <span style="font-size:1.5em">11</span> au <span style="font-size:1.5em">17</span> janvier 2020</p> -->
         </div>
-            <p class="mid-text">Prochain<br>voyage</p>
-            <img class="rotating" src="/images/Circle_dates3.png" alt="Les dates du voyage dédié Foil">
+            <RotateWhite />
+            <!-- <p class="mid-text">Prochain<br>voyage</p>
+            <img class="rotating" src="/images/Circle_dates3.png" alt="Les dates du voyage dédié Foil"> -->
     </div>
 </section>

@@ -1,8 +1,25 @@
+    <script>
+        import Rotate from '../../components/UI/Rotate.svelte';
+    </script>
     
-    
-    
-
 <style>
+
+     .beach {
+        background-color: #86fadb19;
+        margin-top:-42px;
+        padding-bottom:40px;
+        position: relative;
+        z-index: 8;
+    }
+
+    .cover {
+        position: relative;
+        z-index:3;
+        width:100% ;
+        height: 100% ;
+        /* background: #06855de4; */
+    }
+
     article {
         max-width: 820px;
         width: 80%;
@@ -24,19 +41,6 @@
         font-size: 1.7rem ;
         padding: 2.3em 20px 0; }
 
-    .beach {
-        background-color: #86fadb19;
-        margin-top:-42px;
-    }
-
-    .cover {
-        position: relative;
-        z-index: 1;
-        width:100% ;
-        height: 100% ;
-        /* background: #06855de4; */
-    }
-
 
     @media only screen and (max-width:725px) {
         
@@ -56,9 +60,11 @@
     }
 </style>
 
+   
     <div class="beach">
         <div class="cover">
         <article>
+         <Rotate />
             <!-- <h2>Valentin Club Perla Blanca</h2> -->
             <h1>Bienvenue au premier voyage dédié au kitefoil</h1>
                 <p>En collaboration avec l’hôtel <span style="font-family: 'feltro-texture-3', sans-serif;text-shadow:1px 1px 2px #86fadb ">Valentin Perla Blanca</span>, nous vous proposons divers 

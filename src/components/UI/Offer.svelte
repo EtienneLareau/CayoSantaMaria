@@ -25,6 +25,7 @@
     section {
         position: relative;
         width:100%;
+        z-index: 15;
         /* background-color: rgb(167, 233, 212); */
         background: #86fadb ;
         padding-bottom:60px;

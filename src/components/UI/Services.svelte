@@ -92,6 +92,8 @@
     }
 
     .green {
+        position: relative;
+        z-index: 15;
         width: 100%;
         background: #86fadb ;
         padding: 70px 0px 10px;

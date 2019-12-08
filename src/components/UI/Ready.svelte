@@ -7,6 +7,8 @@
         background-color: #f3fffc;
         padding: 0px 0 0px;
         margin-top:-100px;
+        position: relative;
+        z-index: 15;
     }
 
     section {
