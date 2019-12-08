@@ -228,7 +228,7 @@
 	</a> -->
 	<div class="rolldown" on:click={scrollDown}>
 		<p class="regEx">Inscrivez-vous</p>
-		<img class="fly" src="/images/flywithus.png" alt="">
+		<img class="fly" src="/images/flywithusL.png" alt="">
 	</div>
  <!-- ************* -->
 
