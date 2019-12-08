@@ -150,19 +150,17 @@
             <h2>Cayo Santa Maria</h2>
             <p>Situé à une quinzaine de kilomètres de Cayo Guillermo, 
                 Cayo Santa Maria vous offre les mêmes conditions de vent,
-                 d'eau chaude turquoise et d'espace, le tout avec un fond 
-                 marin en sable blanc sans roche.</p>
+                 d'eau chaude turquoise et d'espace, le tout sur fond de 
+                 sable blanc, sans roche.</p>
             
-            <p>Un terrain de jeu exceptionnel à découvrir pour tous les gouts
-             possédant une immense zone de " flat water " à côté du parc 
-             National pour nos débutants et au large de la barrière de 
-             coraux, un terrain de Freestyle avec de la petite vague qui 
-             vous permettra de pratiquer le kitesurf et le hydrofoil en 
-             toute sécurité.</p>
+            <p>Un terrain de jeu exceptionnel à découvrir: Une immense zone 
+                de " flat water " près du parc National, parfait pour les apprentis 
+                et les intermédiaires voulant pratiquer des manoeuvres. L'endroit idéal 
+                pour pratiquer l'hydrofoil en toute sécurité.</p>
             
-            <p> À deux pas de votre chambre la plage du Kite Camps Valentin 
+            <p>À deux pas de votre chambre, la plage du Valentin 
              Club Perla Blanca est un endroit paradisiaque et unique, 
-             qui en font l'un des meilleurs ‘’SPOTS’’ des Caraïbes.</p>
+            l'un des meilleurs SPOTS des Caraïbes.</p>
         </article>
         
         <section>

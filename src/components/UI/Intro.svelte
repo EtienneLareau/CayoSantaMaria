@@ -68,19 +68,17 @@
             <!-- <h2>Valentin Club Perla Blanca</h2> -->
             <h1>Bienvenue au premier voyage dédié au kitefoil</h1>
                 <p>En collaboration avec l’hôtel <span style="font-family: 'feltro-texture-3', sans-serif;text-shadow:1px 1px 2px #86fadb ">Valentin Perla Blanca</span>, nous vous proposons divers 
-                forfaits élaboré spécifiquement pour vous, selon votre budget 
-                et vos attentes. Ce voyage dédié KiteFoil s'adresse au kitefoiler de tous les niveaux: Que vous soyez débutant ou souhaiter peaufiner votre 
-                technique, nous aurons toujours les meilleures solutions à vous proposés.
+                forfaits élaborés spécifiquement pour vous. 
+                Ce voyage dédié KiteFoil s'adresse aux pratiquants de tous les niveaux: Du débutant à l'expert.
                 <br><br>
-                Nos instructeurs expérimentés et qualifiés, diplômés IKO, faciliteront 
-                grandement votre apprentissage. Vous bénéficierez du meilleur équipement DUOTONE 
-                disponible sur le marché, ainsi que des dernières innovations techniques en matière 
-                d'enseignement comme des radios intégrées (2ways) à votre casque permettant contact 
-                continu avec votre moniteur. 
+                Nos instructeurs fort qualifiés en la matière faciliteront 
+                grandement votre apprentissage. Vous bénéficierez du meilleur équipement 
+                disponible sur le marché ainsi que des dernières innovations techniques en matière 
+                d'enseignement comme des radios intégrées (2ways) à votre casque permettant un échange 
+                continu avec votre instructeur. 
                 <br><br>
-                À l'issue de votre formation, nous vous remettrons un certificat IKO attestant votre 
-                niveau de compétence.Le Valentin Perla Blanca est un lieu parfait pour apprendre et 
-                pratiquez le kitesurf.</p>
+                Vous aurez aussi l'occasion d'essayer différents produits de kitefoil 
+                facilitant ainsi votre premier achat.</p>
         </article>
         </div>
     </div>
