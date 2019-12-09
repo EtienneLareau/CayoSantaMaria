@@ -6,14 +6,17 @@
 
     .back {
         background-color: #f3fffc;
-        padding: 0px 0 0px;
-        margin-top:-100px;
+        padding: 0;
+        margin-top:0;
+        bottom:-100px;
+        position: relative;
+        z-index: 5;
     }
 
     h2 {
         font-size:3.2rem;
         text-shadow: 1px 1px 3px #86fadb;
-        padding:20px 0 0;
+        padding:0;
         margin:0;
     }
 

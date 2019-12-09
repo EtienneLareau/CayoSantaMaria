@@ -46,9 +46,7 @@
         .cov {
             display:none;
         }
-        h2 {
-            margin-top:40px;
-        }
+        
     }
 </style>
 

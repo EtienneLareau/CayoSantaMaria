@@ -5,16 +5,17 @@
 <style>
 
      .beach {
-        background-color: #86fadb19;
+        background-color: #f3fffc;
         margin-top:-42px;
         padding-bottom:40px;
         position: relative;
-        z-index: 8;
+        z-index: 11;
+        width:100% ;
     }
 
     .cover {
         position: relative;
-        z-index:3;
+        z-index:11;
         width:100% ;
         height: 100% ;
         /* background: #06855de4; */

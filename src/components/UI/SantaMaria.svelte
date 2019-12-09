@@ -25,13 +25,6 @@
         text-shadow: 2px 2px 5px #86fadb;
     }
 
-    img {
-        width:80px;
-        margin:20px 0 -10px;
-        float:left;
-        padding: 0px 15px;
-    }
-
 
     @media only screen and (min-width:766px) and (max-width:1115px) {
       

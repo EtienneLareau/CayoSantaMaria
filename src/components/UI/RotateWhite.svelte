@@ -6,7 +6,6 @@
             text-shadow: 1px 1px 10px rgb(18, 97, 74); }
 
 
-
     @media only screen and (max-width:700px){
 
         p { font-size:1.3rem;
@@ -64,14 +63,14 @@
     img {
         width:200px;
         position:fixed;
-        z-index: 11;
+        z-index: 5;
         right:10px;
         bottom:10px;
     }
     
     .mid-text {
         position:fixed;
-        z-index: 11;
+        z-index: 5;
         right:57px;
         bottom:50px;
         text-align: center;

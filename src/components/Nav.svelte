@@ -1,5 +1,5 @@
 <script>
-	export let segment;
+	// export let segment;
 	let logo = 'images/supatitle.png';
 
 	// function readMenu() {
