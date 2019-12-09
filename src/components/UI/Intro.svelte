@@ -39,7 +39,7 @@
         font-style: normal;
         letter-spacing: 1.03px;
         font-size: 1.7rem ;
-        padding: 2.3em 20px 0; }
+        padding: 1.5em 20px 0; }
 
 
     @media only screen and (max-width:725px) {
@@ -51,11 +51,13 @@
         
         h2 {
             font-size: 2.7rem;
+            padding-bottom:0px;
         }
 
         p {
             font-size: 1.4rem;
             line-height:1.3;
+            padding: 0.8em 20px 0;
         }
     }
 </style>
