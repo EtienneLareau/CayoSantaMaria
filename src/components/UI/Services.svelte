@@ -14,9 +14,9 @@
 
         p {
             font-family: bicyclette, sans-serif;
-            font-weight: 400;
+            font-weight: 300;
             font-style: normal;
-            font-size: 1.3rem ;
+            font-size: 1.4rem ;
             padding: 0 1em;
             }
 
@@ -30,11 +30,6 @@
             padding: 0px 0px;
         }
 
-        .reserved {
-            font-size: 1.7rem !important;
-            padding: 0.8em 1em;
-        }
-
         .grid-cont {
             padding: 15px 0;
             margin: 15px 15px 30px;
@@ -42,11 +37,11 @@
             background-color: #6afed7 ;
         }
 
-    .reserved {
+    h2 {
          font-family: bicyclette, sans-serif;
         font-weight: 400;
         font-style: normal;
-        font-size: 2.5vw;
+        font-size: 3.2vw;
         text-align: center;
         margin-bottom: 60px;
     }
@@ -80,10 +75,10 @@
         }
         p {
            font-family: bicyclette, sans-serif;
-            font-weight: 400;
+            font-weight: 300;
             font-style: normal;
             padding: 0 1em;
-            font-size:1.3rem;
+            font-size:1.4rem;
         }
         img {
             width:60px;
@@ -94,8 +89,8 @@
             float:none;
             padding: 0px 0px;
         }
-        .reserved {
-            font-size: 1.7rem !important;
+        h2 {
+            font-size: 1.7rem;
             padding: 0.6em 1em;
         }
         .grid-cont {
@@ -107,7 +102,7 @@
 
 
 <div class="green">
-    <p class="reserved">EN RÉSERVANT AVEC NOUS, vous bénéficierez :</p>
+    <h2 class="reserved">EN RÉSERVANT AVEC NOUS, vous bénéficierez :</h2>
     <div class="grid-pack">
         <div class="grid-block">
             <div class="grid-cont">

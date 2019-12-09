@@ -45,16 +45,16 @@
                 margin: 0px auto; }
 
     h2 { font-family: bicyclette, sans-serif;
-        font-weight: 400;
+        font-weight: 900;
         font-style: normal;
          font-size: 3.2rem;
          padding: 0 0px;
          text-shadow: 1px 1px 3px rgb(18, 97, 74); }
 
     p { font-family: bicyclette, sans-serif;
-        font-weight: 400;
+        font-weight: 300;
         font-style: normal;
-        font-size: 1.3rem ;
+        font-size: 1.7rem ;
         text-align: left;
         background: rgba(255, 250, 234, 0.196);
         padding: 10px 10px;
@@ -166,7 +166,8 @@
 
     .prix {
         color: #ff22aa;
-        font-size:1.5rem;
+        font-size:1.7rem;
+        font-weight:400;
     }
 
     @media only screen and (max-width:1000px){
@@ -180,6 +181,7 @@
         .choix {
             margin-bottom:60px;
         }
+        p{ font-size:1.4rem; }
      }
 
     @media only screen and (max-width:725px){
@@ -190,6 +192,8 @@
         .choix {
             margin-bottom:60px;
         }
+
+        p{ font-size:1.4rem; }
     }
 
 </style>

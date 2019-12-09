@@ -27,7 +27,7 @@
         padding: 80px 0; }
 
     h2 { font-family: bicyclette, sans-serif;
-         font-weight: 400;
+         font-weight: 900;
          font-style: normal;
          font-size: 5.3vw ;
          padding: 1em 20px 0;
@@ -35,7 +35,7 @@
          text-shadow: 1px 1px 3px #86fadb }
 
     p { font-family: bicyclette, sans-serif;
-        font-weight: 400;
+        font-weight: 300;
         font-style: normal;
         letter-spacing: 1.03px;
         font-size: 1.7rem ;
@@ -54,7 +54,7 @@
         }
 
         p {
-            font-size: 1.3rem;
+            font-size: 1.4rem;
             line-height:1.3;
         }
     }

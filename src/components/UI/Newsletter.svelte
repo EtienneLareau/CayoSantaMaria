@@ -8,29 +8,34 @@
     }
 
     .block {
-        
         max-width: 800px;
         margin: 0px auto;
         padding: 50px 100px 60px;
     }
 
     label {
-        margin: 0 0 60px;
-        font-family: 'battlefin', sans-serif;
-	    font-weight: 400;
+        font-family: bicyclette, sans-serif;
+        font-weight: 300;
         font-style: normal;
-        font-size: 1.3rem ;
+        margin: 0 0 60px;
+        font-size: 1.4rem ;
         line-height: 1.2;
         cursor: pointer ;
     }
 
     p {
+        font-family: bicyclette, sans-serif;
+        font-weight: 300;
+        font-style: normal;
         font-size: 1.5rem ;
         margin:0;
     }
 
     .para {
-        font-size:1.5rem ;
+         font-family: bicyclette, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size:1.4rem ;
     }
 
     h2 {

@@ -200,10 +200,13 @@
 		width:30px;
 		position: relative;
 		padding:0;
-		margin-right:40px;
+		margin-right:30px;
 		}
 		.regEx { display:none; }
-		img { width:125px; }
+		img { 
+			width:125px;
+			top:20px;
+			left:20px; }
 	}
 
 </style>
