@@ -26,7 +26,7 @@
         margin: 40px auto 0;
         padding: 80px 0; }
 
-    h1 { font-family: bicyclette, sans-serif;
+    h2 { font-family: bicyclette, sans-serif;
          font-weight: 400;
          font-style: normal;
          font-size: 5.3vw ;
@@ -49,7 +49,7 @@
             padding:30px 0px 40px;
         }
         
-        h1 {
+        h2 {
             font-size: 2.7rem;
         }
 
@@ -66,7 +66,7 @@
         <article>
          <Rotate />
             <!-- <h2>Valentin Club Perla Blanca</h2> -->
-            <h1>Bienvenue au premier voyage dédié au kitefoil</h1>
+            <h2>Bienvenue au premier voyage dédié au kitefoil</h2>
                 <p>En collaboration avec l’hôtel <span style="font-family: 'feltro-texture-3', sans-serif;text-shadow:1px 1px 2px #86fadb ">Valentin Perla Blanca</span>, nous vous proposons divers 
                 forfaits élaborés spécifiquement pour vous. 
                 Ce voyage dédié KiteFoil s'adresse aux pratiquants de tous les niveaux: Du débutant à l'expert.
