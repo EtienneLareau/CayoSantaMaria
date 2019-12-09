@@ -1,3 +1,6 @@
+<script>
+    let y;
+</script>
 <style>
     
     
@@ -96,9 +99,20 @@
         right:57px;
         bottom:50px;
     } */
+
+    span {
+		display: block;
+		font-size: 1em;
+		will-change: transform, opacity;
+	}
 </style>
 
-<div class="hold">
-<p class="mid-text">Prochain<br>voyage</p>
-<img class="rotating" src="/images/Circle_dates3.png" alt="Les dates du voyage dédié Foil">
-</div>
+
+    <svelte:window bind:scrollY={y}/>
+
+   <span style="opacity: {1 - Math.max(0, y / 300)}">
+		<div class="hold">
+            <p class="mid-text">Prochain<br>voyage</p>
+            <img class="rotating" src="/images/Circle_dates3.png" alt="Les dates du voyage dédié Foil">
+        </div>
+	</span>
