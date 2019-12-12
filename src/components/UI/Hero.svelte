@@ -23,13 +23,13 @@
               text-transform: uppercase ;
               width:95%; }
     
-    h2 { font-family: bicyclette, sans-serif;
-            
+    h2 {    font-family: gill-sans-nova-shadowed-outl, sans-serif;
             font-style: normal;
             text-shadow: 1px 1px 10px rgb(18, 97, 74); }
 
     h2 {  font-size: 6vw;
-          font-weight: 700;
+          color:rgb(255, 255, 255);
+          font-weight: 400;
           padding:0;
           margin:0 0 -10px;
           line-height:1.1; }

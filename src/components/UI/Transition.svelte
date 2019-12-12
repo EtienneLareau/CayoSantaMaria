@@ -82,7 +82,7 @@
 </style>
 
 <label>
-	<input type="checkbox" bind:value={visible} >
+	<input type="submit" bind:value={visible} >
 		<h3 class="numbers-title">1</h3>
 </label>
 	
@@ -93,16 +93,11 @@
 						   out:fade="{{ y:-800, duration: 250, }}"></div>
 			<div class="modal-container">
 				<button class="close-btn" on:click={fuck}>X</button>
-				<h2>La Balade</h2>
-				<ul>
-					<li>
-						<p>La possibilité d'utiliser le locker pour ranger son matériel de kitesurf 
-                        à la fin de la journée et ainsi diminuer le taux d'humidité de sa chambre.</p>
-					</li>
-					<li>
-						<p>Un service de décollage et d'attérissage de votre aile de kitesurf - fait par un kitelauncher niv.3</p>
-					</li>
-				</ul>
+				<h2>VOUS ÊTES INSCRIT !!!</h2>
+				<p>Good Job!!</p>
+				<p>Vous recevrez un appel sous peu</p>
+				<p>**Note : Compte tenu du nombre élevé d'inscription, un délai de 48h peu être requis avant de recevoir un appel d'un mdemebre de notre service à la clientèle.</p>
+				
 			</div>
 
 

@@ -1,3 +1,9 @@
+<script>
+
+    import Transition from '../../components/UI/Transition.svelte'
+
+</script>
+
 
 <style>
     section {
@@ -110,19 +116,22 @@
         <h2 class="title">Vous voulez devenir un foileux ?</h2>
         <p class="para">Veuillez remplir le formulaire ci-dessous.<br>Un agent vous contactera dans les prochaines 24 heures.</p>
         <br><br>
-        <form name="FoilContactForm" method="POST" Content-Type="application/x-www-form-urlencoded" netlify action="/about">
+        <form name="FoilContactForm" method="POST" Content-Type="application/x-www-form-urlencoded" netlify action="/">
             <input type="hidden" name="form-name" value="FoilContactForm" />
             
             <label for="name"><p>Nom et prénom</p></label>
                 <input type="text" id="name" name="clientNames" placeholder="" required >
             
             <label for="phone"><p>Numéro de téléphone</p></label>
-                <input type="tel" id="phone" name="clientPhone" placeholder="" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required >
+                <input type="tel" id="phone" name="clientPhone" placeholder=""  >
             
             <label for="email"><p>Adresse courriel</p></label>
                 <input type="email" id="email" name="clientEmail"  required/>
             
+            <Transition />
+            
             <button type="submit">INSCRIVEZ-VOUS</button>
+            
         </form>
     </div>
 </section>
