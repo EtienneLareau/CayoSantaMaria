@@ -90,7 +90,7 @@
             padding: 0px 0px;
         }
         h2 {
-            font-size: 1.7rem;
+            font-size: 2.1rem;
             padding: 0.6em 1em;
         }
         .grid-cont {

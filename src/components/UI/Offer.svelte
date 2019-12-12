@@ -69,16 +69,16 @@ function isAnyPartOfElementInViewport(el) {
     .back {
         position: relative;
         z-index:10;
-        padding: 50px 0 50px;
+        padding: 40px 0 50px;
     }
 
     .first-art { text-align: center ;
                 margin: 0px auto; }
 
     h2 { 
-        font-weight: 900;
+        font-weight: 700;
         font-style: normal;
-         font-size: 3.2rem;
+         font-size: 2.7rem;
          padding: 0 0px;
          text-shadow: 1px 1px 3px rgb(18, 97, 74); }
 
@@ -89,10 +89,19 @@ function isAnyPartOfElementInViewport(el) {
         margin-bottom:-15px;
         line-height: 1.2; }
 
-    .med-font { font-size: 2.1rem;
+    .med-font { font-size: 2.7rem;
+                font-weight:700;
                 background: none;
-                padding:0 10px 15px;
+                padding:0 10px 10px;
                 text-align: center; }
+
+    .med-sub {
+        background: none;
+        text-align:center;
+        text-transform: italic;
+        padding: 0 0 40px;
+        
+    }
 
     .grid-logo {
         margin: 0px;
@@ -153,6 +162,10 @@ function isAnyPartOfElementInViewport(el) {
         margin: 20px auto;
         box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.351);
         transition: all 0.3s ease-out;
+    }
+
+    button:focus {
+        border-radius:2px;
     }
 
     button:hover {
@@ -230,8 +243,9 @@ function isAnyPartOfElementInViewport(el) {
     <!-- title -->
     <div class="back">
         <div class="first-art">
-            <h2>SUR LA PLAGE</h2>
-            <p class="med-font">3 façons d'en profiter</p>
+            <!-- <h2>SUR LA PLAGE</h2> -->
+            <p class="med-font">3 façons d'en profiter !</p>
+            <p class="med-sub">Voici les différents packages disponibles.</p>
             <div class="choices-line">
                 <button on:click={choiceOne} >La Balade</button>
                 <button on:click={choiceTwo} >La Leçon</button>

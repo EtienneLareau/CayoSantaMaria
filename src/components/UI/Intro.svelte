@@ -28,7 +28,7 @@
         padding: 80px 0 0; }
 
     h2 { 
-         font-weight: 900;
+         font-weight: 700;
          font-style: normal;
          font-size: 5.3vw ;
          padding: 1em 20px 0;

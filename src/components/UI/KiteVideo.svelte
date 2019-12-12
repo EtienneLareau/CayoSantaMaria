@@ -9,7 +9,7 @@
         padding: 0;
         position: relative;
         z-index: 5;
-        padding: 0px 0 50px;
+        padding: 0px 0 30px;
     }
 
     h2 {
@@ -24,7 +24,7 @@
         position: relative;
         max-width: 800px;
         margin: 0px auto;
-        padding: 20px 0;
+        padding: 0px 0 20px;
     }
 
     .resp-container {
