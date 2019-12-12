@@ -6,6 +6,7 @@
     
     p { font-family: bicyclette, sans-serif; 
             font-style: normal;
+            font-weight:400;
             text-shadow: 1px 1px 10px rgb(18, 97, 74); }
 
 
