@@ -10,7 +10,7 @@
 
     .container { width:100%;
                  height:100vh;
-                 background: url('/images/covFoilS4.jpg') right top no-repeat;
+                 background: url('/images/covFoilS4.jpg') left top no-repeat;
                  background-size: cover; }
 
     .banner { position: absolute ;

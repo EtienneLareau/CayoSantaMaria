@@ -25,42 +25,42 @@
 	{
 	from
 		{
-		transform: rotate(0deg);
-		-o-transform: rotate(0deg);
-		-ms-transform: rotate(0deg);
-		-moz-transform: rotate(0deg);
-		-webkit-transform: rotate(0deg);
-		}
-	to
-		{
 		transform: rotate(360deg);
 		-o-transform: rotate(360deg);
 		-ms-transform: rotate(360deg);
 		-moz-transform: rotate(360deg);
 		-webkit-transform: rotate(360deg);
 		}
+	to
+		{
+		transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+		-webkit-transform: rotate(0deg);
+		}
 	}
     @-webkit-keyframes rotating
 	{
 	from
 		{
-		transform: rotate(0deg);
-		-webkit-transform: rotate(0deg);
+		transform: rotate(360deg);
+		-webkit-transform: rotate(360deg);
 		}
 	to
 		{
-		transform: rotate(360deg);
-		-webkit-transform: rotate(360deg);
+		transform: rotate(0deg);
+		-webkit-transform: rotate(0deg);
 		}
 	}
     
     .rotating
 	{
-	-webkit-animation: rotating 8s linear infinite;
-	-moz-animation: rotating 8s linear infinite;
-	-ms-animation: rotating 8s linear infinite;
-	-o-animation: rotating 8s linear infinite;
-	animation: rotating 8s linear infinite;
+	-webkit-animation: rotating 10s linear infinite;
+	-moz-animation: rotating 10s linear infinite;
+	-ms-animation: rotating 10s linear infinite;
+	-o-animation: rotating 10s linear infinite;
+	animation: rotating 10s linear infinite;
 	}
 
     img {

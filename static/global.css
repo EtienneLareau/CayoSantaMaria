@@ -13,15 +13,14 @@ html {
 	
 }
 
-h1, h2, h3, h4, h5, h6 {
-	font-family: bicyclette, sans-serif;
-	font-weight: 400;
+h1, h2, h3, h4, h5, h6, p, label, button {
+	font-family: 'bicyclette', 'Gill Sans', sans-serif;
 	font-style: normal; }
 
-p, label, button {
-	font-family: bicyclette, sans-serif;
-	font-weight: 400;
-	font-style: normal; }
+h1, h2, h3, h4, h5, h6 { font-weight:400; }
+
+p, label, button { font-weight:300; }
+
 
 h1 { font-size: 4em; }
 

@@ -97,10 +97,12 @@
         position: relative;
         max-width: 800px;
         margin: 0px auto 0px;
+        padding-bottom:50px;
     }
 
     .resp-container {
         position: relative;
+        margin: 0 5% ;
         overflow: hidden;
         padding-top: 56.25%; /* This is 9th / 16th */
     }

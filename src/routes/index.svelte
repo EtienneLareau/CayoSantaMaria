@@ -7,7 +7,8 @@
 	import Newsletter from '../components/UI/Newsletter.svelte';
 	import KiteVideo from '../components/UI/KiteVideo.svelte';
 	import SantaMaria from '../components/UI/SantaMaria.svelte';
-
+	import Transition from '../components/UI/Transition.svelte';
+	import Fullapp from '../components/UI/Fullapp.svelte';
 </script>
 
 
@@ -15,26 +16,27 @@
 	<title>Venez apprendre à "kitefoiler" à Cayo Santa Maria, Cuba.</title>
 </svelte:head>
 
-<!-- Mega banniere avec menu et choix d'info boutons -->
-<Hero />
 
+<!-- <Fullapp /> -->
+
+<!-- Mega banniere avec menu et choix d'info boutons -->
+<Hero /> 
 <!-- premier text qui explique le voyage -->
-<Intro />
+<Intro /> 
 
 <!-- First video - kiters - foilers -->
-<KiteVideo />
+<KiteVideo /> 
 
 <!-- offee de servcies des cours Multi logo -->
-<Offer />
+<Offer /> 
 
 <!-- Santa Maria -->
-<SantaMaria />
+<SantaMaria /> 
 
-<!-- video -->
-<!-- <Ready /> -->
+<!-- <Ready /> --> <!-- video -->
 
- <!-- le mega texte de ben -->
-<Services />
+<!-- le mega texte de ben -->
+<Services />  
 
 <Newsletter />
 

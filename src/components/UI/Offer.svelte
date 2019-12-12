@@ -18,6 +18,37 @@
         document.querySelector('#latotale').scrollIntoView({
             behavior: 'smooth'});
     }
+
+
+
+    // all element in viewport
+    function isElementInViewport(el) {
+  var rect = el.getBoundingClientRect();
+  return (
+    rect.top >= 0 &&
+    rect.left >= 0 &&
+    rect.bottom <= (window.innerHeight || document. documentElement.clientHeight) &&
+    rect.right <= (window.innerWidth || document. documentElement.clientWidth)
+  );
+}
+
+
+function isAnyPartOfElementInViewport(el) {
+
+    const rect = el.getBoundingClientRect();
+    // DOMRect { x: 8, y: 8, width: 100, height: 100, top: 8, right: 108, bottom: 108, left: 8 }
+    const windowHeight = (window.innerHeight || document.documentElement.clientHeight);
+    const windowWidth = (window.innerWidth || document.documentElement.clientWidth);
+
+    // http://stackoverflow.com/questions/325933/determine-whether-two-date-ranges-overlap
+    const vertInView = (rect.top <= windowHeight) && ((rect.top + rect.height) >= 0);
+    const horInView = (rect.left <= windowWidth) && ((rect.left + rect.width) >= 0);
+
+    return (vertInView && horInView);
+}
+
+    // import Transition from '../../components/UI/Transition.svelte';
+
 </script>
 
 <style>
@@ -44,17 +75,14 @@
     .first-art { text-align: center ;
                 margin: 0px auto; }
 
-    h2 { font-family: bicyclette, sans-serif;
+    h2 { 
         font-weight: 900;
         font-style: normal;
          font-size: 3.2rem;
          padding: 0 0px;
          text-shadow: 1px 1px 3px rgb(18, 97, 74); }
 
-    p { font-family: bicyclette, sans-serif;
-        font-weight: 300;
-        font-style: normal;
-        font-size: 1.7rem ;
+    p { font-size: 1.7rem ;
         text-align: left;
         background: rgba(255, 250, 234, 0.196);
         padding: 10px 10px;
@@ -83,7 +111,7 @@
     }
 
     .numbers-title {
-        font-family: 'feltro-texture-3', sans-serif;
+        font-family: 'feltro-texture-3', 'Gill Sans', sans-serif;
         font-size: 80px;
         padding:20px;
         color: #86fadb;
@@ -211,15 +239,12 @@
             </div> 
         </div>
     </div>
-
-
+            <!-- <Transition /> -->
     <div>
         <article class="sec-art">
             <div class="grid-logo">
-
                 <div id="labalade" class="choix">
                     <h3 class="numbers-title">1</h3>
-                    <!-- <img class="col" src="gauge-dashboard-1.svg" alt="bin"> -->
                     <h3>LA BALADE</h3>
                     <p>La possibilité d'utiliser le locker pour ranger son matériel de kitesurf 
                         à la fin de la journée et ainsi diminuer le taux d'humidité de sa chambre</p>

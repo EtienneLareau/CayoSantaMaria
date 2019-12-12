@@ -7,10 +7,9 @@
     .back {
         background-color: #f3fffc;
         padding: 0;
-        margin-top:0;
-        bottom:-100px;
         position: relative;
         z-index: 5;
+        padding: 0px 0 50px;
     }
 
     h2 {
@@ -18,16 +17,19 @@
         text-shadow: 1px 1px 3px #86fadb;
         padding:0;
         margin:0;
+        text-align:right;
     }
 
     section {
         position: relative;
         max-width: 800px;
         margin: 0px auto;
+        padding: 20px 0;
     }
 
     .resp-container {
         position: relative;
+        margin: 0 5%;
         overflow: hidden;
         padding-top: 56.25%; /* This is 9th / 16th */
     }
@@ -55,17 +57,17 @@
         .cov {
             display:none;
         }
-        h2 {
+        /* h2 {
             margin-top:40px;
             font-size: 1.9rem;
             text-align: center;
-        }
+        } */
     }
 </style>
 
 <div class="back">
     <section>
-        <h2>Le Spot</h2>
+        <!-- <h2>Le Spot</h2> -->
         <div class="resp-container">
             <div class="cov"></div>
             <iframe title="video showing the beach of Cayo Santa Maria"

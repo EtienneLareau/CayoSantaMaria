@@ -7,7 +7,7 @@
      .beach {
         background-color: #f3fffc;
         margin-top:-42px;
-        padding-bottom:40px;
+        padding-bottom:20px;
         position: relative;
         z-index: 11;
         width:100% ;
@@ -25,9 +25,9 @@
         max-width: 820px;
         width: 80%;
         margin: 40px auto 0;
-        padding: 80px 0; }
+        padding: 80px 0 0; }
 
-    h2 { font-family: bicyclette, sans-serif;
+    h2 { 
          font-weight: 900;
          font-style: normal;
          font-size: 5.3vw ;
@@ -35,8 +35,7 @@
          margin:0;
          text-shadow: 1px 1px 3px #86fadb }
 
-    p { font-family: bicyclette, sans-serif;
-        font-weight: 300;
+    p { 
         font-style: normal;
         letter-spacing: 1.03px;
         font-size: 1.7rem ;
@@ -72,7 +71,7 @@
             <h2>Bienvenue au premier voyage dédié au kitefoil</h2>
                 <p>En collaboration avec l’hôtel <span style="font-family: 'feltro-texture-3', sans-serif;text-shadow:1px 1px 2px #86fadb ">Valentin Perla Blanca</span>, nous vous proposons divers 
                 forfaits élaborés spécifiquement pour vous. 
-                Ce voyage dédié KiteFoil s'adresse aux pratiquants de tous les niveaux: Du débutant à l'expert.
+                Ce voyage dédié KiteFoil s'adresse aux pratiquants de tous les niveaux, du débutant à l'expert.
                 <br><br>
                 Nos instructeurs fort qualifiés en la matière faciliteront 
                 grandement votre apprentissage. Vous bénéficierez du meilleur équipement 

@@ -66,7 +66,7 @@
         document.querySelector('#Register').scrollIntoView({ 
         behavior: 'smooth' });
     }
-
+	console.log(scrollDown);
 </script>
 
 <style>
@@ -192,16 +192,16 @@
 		background: #86fadb;
 	}
 
-	.fly { display:none }
+	/* .fly { display:none } */
 
 	@media only screen and (max-width:725px){
-		.fly {
+		/* .fly {
 		display: block;
 		width:30px;
 		position: relative;
 		padding:0;
 		margin-right:30px;
-		}
+		} */
 		.regEx { display:none; }
 		img { 
 			width:125px;
@@ -218,7 +218,7 @@
 	</a> -->
 	<div class="rolldown" on:click={scrollDown}>
 		<p class="regEx">Inscrivez-vous</p>
-		<img class="fly" src="/images/flywithus.png" alt="">
+		<!-- <img class="fly" src="/images/flywithus.png" alt=""> -->
 	</div>
  <!-- ************* -->
 

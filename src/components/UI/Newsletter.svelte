@@ -117,7 +117,7 @@
                 <input type="text" id="name" name="clientNames" placeholder="" required >
             
             <label for="phone"><p>Numéro de téléphone</p></label>
-                <input type="tel" id="phone" name="clientPhone" placeholder="" required >
+                <input type="tel" id="phone" name="clientPhone" placeholder="" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required >
             
             <label for="email"><p>Adresse courriel</p></label>
                 <input type="email" id="email" name="clientEmail"  required/>

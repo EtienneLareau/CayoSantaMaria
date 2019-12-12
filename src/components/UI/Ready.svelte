@@ -1,5 +1,4 @@
-<script>
-</script>
+
 
 <style>
 
@@ -19,6 +18,7 @@
 
     .resp-container {
         position: relative;
+        margin: 0 5%;
         overflow: hidden;
         padding-top: 56.25%; /* This is 9th / 16th */
     }
