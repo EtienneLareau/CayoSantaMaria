@@ -1,8 +1,6 @@
 <script>
 
     import TransitionSubmit from '../../components/UI/TransitionSubmit.svelte';
-
-    let fullName;
     
     let visible;
 
@@ -125,6 +123,19 @@
             text-align: left;
             padding-right:20px;
         }
+
+        input, input:focus {
+        height: 30px ;
+        width: 100% ;
+        border: 1px solid #278e73;
+        cursor: pointer ;
+        margin: 0 0 32px;
+        color: #278e73;
+        text-align:center;
+        font-size: 1.3rem;
+        padding: 8px 0;
+    }
+
     }
 
     #Register {padding:20px;}
@@ -141,12 +152,12 @@
               method="POST" 
               Content-Type="application/x-www-form-urlencoded" 
               netlify
-              on:submit|preventDefault={shootMe}
-              >
+              on:submit|preventDefault={shootMe}>
+            
             <input type="hidden" name="form-name" value="FoilContactForm" />
             
             <label for="name"><p>Nom et prénom</p></label>
-                <input type="text" id="name" name="clientNames" value={fullName} on:input={fullNameInput} placeholder="" required >
+                <input type="text" id="name" name="clientNames" placeholder="" required >
             
             <label for="phone"><p>Numéro de téléphone</p></label>
                 <input type="tel" id="phone" name="clientPhone" placeholder=""  >
@@ -157,8 +168,8 @@
             <button type="submit">
                 Inscrivez-vous
             </button>
-            <TransitionSubmit visible />
-            
         </form>
     </div>
 </section>
+
+<TransitionSubmit  />

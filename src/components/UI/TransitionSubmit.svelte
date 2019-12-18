@@ -5,9 +5,10 @@
 	
 	function fuck() {
 		document.querySelector('.back-modal').style.display='none';
+		console.log('close');
 	}
     
-    
+    $: console.log(fuck);
     
 </script>
 
@@ -63,13 +64,8 @@
         box-shadow:5px 5px 10px rgba(128, 128, 128, 0.858);
     }
 
-	input[type=checkbox] {
-		background: blue;
-		padding: 100px;
-	}
-
 	h2 {
-		font-size:3.2rem;
+		font-size:2.1rem;
 		font-weight:700;
 	}
 
@@ -83,6 +79,42 @@
 		display:none;
 	}
 
+	@media only screen and (max-width:800px) {
+		.modal-container {
+		width:80%;
+		padding: 20px 20px;
+		margin: 0 auto;
+		background: whitesmoke;
+		position: fixed;
+		z-index: 1200;
+		top:100px;
+		border-radius: 20px;
+		
+		box-shadow:10px 10px 15px #86fadb;
+	}
+
+	.close-btn {
+		color: #ff22aa;
+		font-weight:900;
+		font-size:2.1rem;
+		position:absolute;
+		top:10px;
+		right:10px;
+		border:none;
+		background: whitesmoke;
+	}
+
+	h2 {
+		font-size:1.9rem;
+		font-weight:700;
+	}
+
+	p {
+		font-size:1.4rem;
+		font-weight: 300;
+	}
+
+	}
 </style>
 
 
@@ -104,6 +136,4 @@
 				<p>**Note : Compte tenu du nombre élevé d'inscription, un délai de 48h peu être requis avant de recevoir un appel d'un mdemebre de notre service à la clientèle.</p>
 				
 			</div>
-
-
 	</div>
