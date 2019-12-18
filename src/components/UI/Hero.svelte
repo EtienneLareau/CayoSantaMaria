@@ -1,6 +1,7 @@
 <script>
     let logo = 'images/LogoOnly.png';
     import RotateWhite from '../../components/UI/RotateWhite.svelte';
+    import Register from '../../components/UI/Register.svelte';
 </script>
 
 
@@ -27,8 +28,8 @@
             font-style: normal;
             text-shadow: 1px 1px 10px rgb(18, 97, 74); }
 
-    h2 {  font-size: 6vw;
-          color:rgb(255, 255, 255);
+    h2 {  font-size: 12vw;
+          color:#86fadb;
           font-weight: 400;
           padding:0;
           margin:0 0 -10px;
@@ -37,7 +38,7 @@
 
     @media only screen and (max-width:700px){
         
-        h2 { font-size:3.1rem;
+        h2 { font-size:15vw;
              line-height:1.1 }
 
         .container { background: url('/images/covFoilS4W.jpg') center top no-repeat;
@@ -55,7 +56,7 @@
 
 </style>
 
-
+<Register />
 <section>
     <div class="container">
         <div class="dark"></div>

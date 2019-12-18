@@ -21,6 +21,7 @@
 
 <!-- Mega banniere avec menu et choix d'info boutons -->
 <Hero /> 
+
 <!-- premier text qui explique le voyage -->
 <Intro /> 
 

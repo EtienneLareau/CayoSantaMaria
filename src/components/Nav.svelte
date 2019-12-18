@@ -61,12 +61,6 @@
 ///////////////////////////////////////////////////////
 
 // SmoothScroll
-
-    function scrollDown() {
-        document.querySelector('#Register').scrollIntoView({ 
-        behavior: 'smooth' });
-    }
-	console.log(scrollDown);
 </script>
 
 <style>
@@ -166,31 +160,8 @@
 		z-index: 7000;
 	}
 
-	.rolldown {
-		position: relative;
-		float: right;
-		z-index:2010;
-		padding:2px 20px;
-		cursor: pointer;
-		
-	}
+	
 
-	p {
-		color:white;
-		border-radius: 10px;
-		background: #ff22aa;
-		padding: 10px 30px;
-		font-size:1.5rem;
-		transition: all 0.25s ease;
-		font-family: bicyclette, sans-serif;
-		font-weight: 400;
-		font-style: normal;
-	}
-
-	p:focus, p:hover {
-		color:#ff22aa;
-		background: #86fadb;
-	}
 
 	/* .fly { display:none } */
 
@@ -202,7 +173,6 @@
 		padding:0;
 		margin-right:30px;
 		} */
-		.regEx { display:none; }
 		img { 
 			width:125px;
 			top:20px;
@@ -216,10 +186,7 @@
 		<p class="regEx">Inscrivez-vous</p>
 		<img class="fly" src="/images/flywithus.png" alt="">
 	</a> -->
-	<div class="rolldown" on:click={scrollDown}>
-		<p class="regEx">Inscrivez-vous</p>
-		<!-- <img class="fly" src="/images/flywithus.png" alt=""> -->
-	</div>
+	
  <!-- ************* -->
 
 

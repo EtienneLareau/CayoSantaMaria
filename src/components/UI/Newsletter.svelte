@@ -1,6 +1,24 @@
 <script>
 
-    import Transition from '../../components/UI/Transition.svelte'
+    import TransitionSubmit from '../../components/UI/TransitionSubmit.svelte';
+
+    let fullName;
+    
+    let visible;
+
+    //  $: console.log(fullName);
+
+    function fullNameInput(event) {
+        const nameValue = event.target.value;
+        fullName = nameValue;
+    }  
+     
+    function shootMe() {
+        console.log('fack!!!');
+        document.querySelector('.back-modal').style.display='block';
+    }
+
+    $: console.log(shootMe);
 
 </script>
 
@@ -8,7 +26,7 @@
 <style>
     section {
         position: relative;
-        z-index: 15;
+        z-index: 20;
         width: 100% ;
         background-color: #f3fffc;
     }
@@ -65,11 +83,14 @@
         padding: 8px 0;
     }
 
-    button {
+     button {
         background: #ff22aa;
         color:white;
         padding: 20px 40px;
         border:none;
+        font-family: bicyclette, sans-serif;
+		font-weight: 400;
+		font-style: normal;
         font-size:1.5rem;
         box-shadow: 1px 1px 3px rgba(128, 128, 128, 0.425);
         transition: all 0.25s ease-out;
@@ -78,14 +99,14 @@
         position: relative;
         left:50%;
         transform: translate(-50%,0%);
-    }
+    } 
 
     button:focus, button:hover {
         background: #86fadb;
         color:#ff22aa;
         box-shadow:none;
         border-radius:50px;
-    }
+    } 
 
     @media only screen and (max-width:725px) {
         .block {
@@ -116,21 +137,27 @@
         <h2 class="title">Vous voulez devenir un foileux ?</h2>
         <p class="para">Veuillez remplir le formulaire ci-dessous.<br>Un agent vous contactera dans les prochaines 24 heures.</p>
         <br><br>
-        <form name="FoilContactForm" method="POST" Content-Type="application/x-www-form-urlencoded" netlify action="/">
+        <form name="FoilContactForm" 
+              method="POST" 
+              Content-Type="application/x-www-form-urlencoded" 
+              netlify
+              on:submit|preventDefault={shootMe}
+              >
             <input type="hidden" name="form-name" value="FoilContactForm" />
             
             <label for="name"><p>Nom et prénom</p></label>
-                <input type="text" id="name" name="clientNames" placeholder="" required >
+                <input type="text" id="name" name="clientNames" value={fullName} on:input={fullNameInput} placeholder="" required >
             
             <label for="phone"><p>Numéro de téléphone</p></label>
                 <input type="tel" id="phone" name="clientPhone" placeholder=""  >
             
             <label for="email"><p>Adresse courriel</p></label>
                 <input type="email" id="email" name="clientEmail"  required/>
-            
-            <Transition />
-            
-            <button type="submit">INSCRIVEZ-VOUS</button>
+
+            <button type="submit">
+                Inscrivez-vous
+            </button>
+            <TransitionSubmit visible />
             
         </form>
     </div>

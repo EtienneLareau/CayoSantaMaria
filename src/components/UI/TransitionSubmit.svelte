@@ -1,12 +1,14 @@
 <script>
 	import { fade, fly } from 'svelte/transition';
 	
-	let visible = false;
+   export let visible
 	
 	function fuck() {
-		visible = false;
+		document.querySelector('.back-modal').style.display='none';
 	}
-	
+    
+    
+    
 </script>
 
 <style>
@@ -62,7 +64,8 @@
     }
 
 	input[type=checkbox] {
-		display:none;
+		background: blue;
+		padding: 100px;
 	}
 
 	h2 {
@@ -77,19 +80,21 @@
 
 	.back-modal {
 		position: relative;
+		display:none;
 	}
 
 </style>
 
-<label>
-	<input id="checked" type="checkbox" bind:value={visible} >
-		<h3 class="numbers-title">1</h3>
-</label>
-	
 
-{#if visible}
+
+    <!-- <label for="bindChecked">
+		<h3 class="numbers-title">1</h3>
+		<input id="bindChecked" type="checkbox"  >
+	</label>   -->
+
+
 	<div class="back-modal">
-		<div on:click={fuck} class="modal" in:fade="{{ x: 100, duration: 550, delay:10 }}" 
+		<div on:click={fuck} class="modal" in:fade="{{ x: 100, duration: 550, delay:100 }}" 
 						   out:fade="{{ y:-800, duration: 250, }}"></div>
 			<div class="modal-container">
 				<button class="close-btn" on:click={fuck}>X</button>
@@ -102,4 +107,3 @@
 
 
 	</div>
-{/if}
