@@ -45,6 +45,7 @@
             transition: all 1s ease-out; }
 
     h2 {  font-size: 12vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
           color:#86fadb;
           font-weight: 400;
           padding:0;
@@ -57,8 +58,22 @@
     }
 
     .red {
-        text-shadow: 1px 1px 0px red,
-                     100px 100px 0px red;
+        text-shadow: 3px 3px 0px rgb(18, 97, 74),
+                         -6px -6px 0px orange,
+                         9px 9px 0px yellow,
+                         -12px -12px 0px blueviolet,
+                         15px 15px 0px rgb(18, 97, 74),
+                         -18px -18px 0px orange,
+                         21px 21px 0px yellow,
+                         -24px -24px 0px blueviolet,
+                         27px 27px 0px rgb(18, 97, 74),
+                         -30px -30px 0px orange,
+                         33px 33px 0px yellow,
+                         -36px -36px 0px blueviolet,
+                         39px 39px 0px rgb(18, 97, 74),
+                         -42px -42px 0px orange,
+                         45px 45px 0px yellow,
+                         -48px -48px 0px blueviolet;
     }
 
 
