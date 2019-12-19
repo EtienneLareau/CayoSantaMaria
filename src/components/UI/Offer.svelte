@@ -190,11 +190,15 @@ function isAnyPartOfElementInViewport(el) {
         margin: 0 auto 40px;
         border: 2px solid #ff22aa;
         background: #ff22aa;
-        box-shadow: 2px 2px 5px black;
+        box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.829),
+                    1px 2px 8px rgba(0, 0, 0, 0.74),
+                    2px 4px 12px rgba(0, 0, 0, 0.678),
+                    3px 8px 16px rgba(0, 0, 0, 0.685),
+                    4px 16px 32px rgba(0, 0, 0, 0.685);
         color:white;
         border-radius:10px;
         padding: 20px 40px;
-        transition: all 0.1s ease-in;
+        transition: all 0.25s ease-in;
         cursor: pointer;
          }
 
@@ -202,7 +206,7 @@ function isAnyPartOfElementInViewport(el) {
         background: white;
         border: 2px solid #86fadb;
         box-shadow: none;
-        color:#ff22aa;
+        color:#86fadb;
     }
 
     .prix {
