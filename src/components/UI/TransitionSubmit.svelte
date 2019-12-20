@@ -115,6 +115,31 @@
 	}
 
 	}
+
+	.butt {
+        background: #ff22aa;
+        color:white;
+        padding: 20px 40px;
+        border:none;
+        font-family: bicyclette, sans-serif;
+		font-weight: 400;
+		font-style: normal;
+        font-size:1.5rem;
+        box-shadow: 1px 1px 3px rgba(128, 128, 128, 0.425);
+        transition: all 0.25s ease-out;
+        cursor: pointer;
+        border-radius:10px;
+        position: relative;
+        left:50%;
+        transform: translate(-50%,0%);
+    } 
+
+    .butt:focus, .butt:hover {
+        background: #86fadb;
+        color:#ff22aa;
+        box-shadow:none;
+        border-radius:50px;
+    } 
 </style>
 
 
@@ -134,6 +159,6 @@
 				<p>Good Job!!</p>
 				<p>Vous recevrez un appel sous peu</p>
 				<p>**Note : Compte tenu du nombre élevé d'inscription, un délai de 48h peu être requis avant de recevoir un appel d'un mdemebre de notre service à la clientèle.</p>
-				
+				<button class="butt" type="submit">Envoyez le formulaire</button>
 			</div>
 	</div>

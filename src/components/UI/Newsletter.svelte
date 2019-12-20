@@ -12,12 +12,11 @@
     }  
      
     function shootMe() {
-        console.log('fack!!!');
         document.querySelector('.back-modal').style.display='block';
-        setTimeout("location.href = 'https://foilcayosantamaria.com/#Register';",5000);
     }
 
     $: console.log(shootMe);
+
 
 </script>
 
@@ -154,7 +153,7 @@
               Content-Type="application/x-www-form-urlencoded" 
               netlify
               action="/#Register"
-              on:submit={shootMe}>
+              >
             
             <input type="hidden" name="form-name" value="FoilContactForm" />
             
@@ -167,11 +166,11 @@
             <label for="email"><p>Adresse courriel</p></label>
                 <input type="email" id="email" name="clientEmail"  required/>
 
-            <button type="submit">
+            <button on:click={shootMe} type="button">
                 Inscrivez-vous
             </button>
+            <TransitionSubmit  />
         </form>
     </div>
 </section>
 
-<TransitionSubmit  />
