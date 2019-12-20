@@ -152,7 +152,8 @@
               method="POST" 
               Content-Type="application/x-www-form-urlencoded" 
               netlify
-              on:submit={shootMe}>
+              action=""
+              on:submit|preventDefault={shootMe}>
             
             <input type="hidden" name="form-name" value="FoilContactForm" />
             
