@@ -14,6 +14,7 @@
     function shootMe() {
         console.log('fack!!!');
         document.querySelector('.back-modal').style.display='block';
+        setTimeout("location.href = 'https://foilcayosantamaria.com/#Register';",5000);
     }
 
     $: console.log(shootMe);
@@ -152,8 +153,8 @@
               method="POST" 
               Content-Type="application/x-www-form-urlencoded" 
               netlify
-              action=""
-              on:submit={shootMe}>
+              action="/#Register"
+              on:submit|preventDefault={shootMe}>
             
             <input type="hidden" name="form-name" value="FoilContactForm" />
             
