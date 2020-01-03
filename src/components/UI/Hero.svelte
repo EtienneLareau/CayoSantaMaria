@@ -54,6 +54,12 @@
         background: rgba(0, 0, 0, 0.112);
         /* background: #86fadbe9; */
     }
+
+    @media only screen and (max-width: 850px) {
+        .dark {
+            background: rgba(0, 0, 0, 0.29);
+        }
+    }
 </style>
 
 <Register />
