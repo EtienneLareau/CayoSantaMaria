@@ -168,7 +168,7 @@
             <button on:click={shootMe} type="button">
                 Inscrivez-vous
             </button>
-            <TransitionSubmit  />
+            <TransitionSubmit visible  />
         </form>
     </div>
 </section>
