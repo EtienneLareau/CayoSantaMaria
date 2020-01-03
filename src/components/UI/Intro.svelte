@@ -5,7 +5,7 @@
 <style>
 
      .beach {
-        background-color: #f3fffc;
+        background-color: #f5fefb;
         margin-top:-42px;
         padding-bottom:20px;
         position: relative;
@@ -37,7 +37,6 @@
 
     p { 
         font-style: normal;
-        letter-spacing: 1.03px;
         font-size: 1.7rem ;
         padding: 1.5em 20px 0; }
 
@@ -57,7 +56,7 @@
         p {
             font-size: 1.4rem;
             line-height:1.3;
-            padding: 0.8em 20px 0;
+            padding: 0.8em 25px 0;
         }
     }
 </style>

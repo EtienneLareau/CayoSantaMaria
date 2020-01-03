@@ -86,12 +86,14 @@
 
     @media only screen and (max-width:825px){
         img {
-            bottom:50px;
+            right:10px;
+            bottom:10px;
             position: absolute;
         }
 
         .mid-text {
-            bottom:90px;
+            right:56px;
+            bottom:50px;
             position: absolute;
         }
     }
