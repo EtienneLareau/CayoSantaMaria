@@ -66,17 +66,18 @@
 
     img {
         width:200px;
-        position:fixed;
+        position:absolute;
         z-index: 5;
-        right:10px;
+        right:100px;
         bottom:10px;
+        filter:brightness(1.5);
     }
     
     .mid-text {
         position:fixed;
         z-index: 5;
-        right:57px;
-        bottom:50px;
+        right:145px;
+        bottom:46px;
         text-align: center;
         color: white;
         font-size:1.7rem;

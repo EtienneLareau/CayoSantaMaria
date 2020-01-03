@@ -66,7 +66,7 @@
     <div class="beach">
         <div class="cover">
         <article>
-         <Rotate />
+            <Rotate />
             <!-- <h2>Valentin Club Perla Blanca</h2> -->
             <h2>Bienvenue au premier voyage dédié au kitefoil</h2>
                 <p>En collaboration avec l’hôtel <span style="font-family: 'feltro-texture-3', sans-serif;text-shadow:1px 1px 2px #86fadb ">Valentin Perla Blanca</span>, nous vous proposons divers 

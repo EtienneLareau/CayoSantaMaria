@@ -18,8 +18,10 @@
 
 	p {
 		color:white;
-		border-radius: 10px;
+		border-radius: 2px;
 		background: #ff22aa;
+		box-shadow: 2px 2px 2px rgb(33, 33, 33),
+					4px 4px 4px rgb(80, 80, 80);
 		padding: 10px 30px;
 		font-size:1.5rem;
 		transition: all 0.25s ease;
@@ -31,6 +33,7 @@
 	p:focus, p:hover {
 		color:#ff22aa;
 		background: #86fadb;
+		box-shadow:none;
 	}
 
 	@media only screen and (max-width:725px){

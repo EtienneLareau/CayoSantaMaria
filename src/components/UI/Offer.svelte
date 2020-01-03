@@ -191,10 +191,8 @@ function isAnyPartOfElementInViewport(el) {
         border: 2px solid #ff22aa;
         background: #ff22aa;
         box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.829),
-                    1px 2px 8px rgba(0, 0, 0, 0.74),
-                    2px 4px 12px rgba(0, 0, 0, 0.678),
-                    3px 8px 16px rgba(0, 0, 0, 0.685),
-                    4px 16px 32px rgba(0, 0, 0, 0.685);
+                    1px 2px 8px rgba(0, 0, 0, 0.74);
+                   
         color:white;
         border-radius:10px;
         padding: 20px 40px;

@@ -73,7 +73,7 @@
         position:fixed;
         z-index: 4;
         right:57px;
-        top:45px;
+        top:42px;
         text-align: center;
         color:black;
         font-size:1.7rem;

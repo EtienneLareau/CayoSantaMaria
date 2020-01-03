@@ -159,7 +159,7 @@
         </article>
         
         <section>
-            <h3>La plage</h3>
+        
             <div class="resp-container">
                 <div class="cov"></div>
                 <iframe title="video showing the beach of Cayo Santa Maria"

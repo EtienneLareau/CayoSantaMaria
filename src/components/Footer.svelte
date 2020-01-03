@@ -2,11 +2,9 @@
     footer {
         position: relative;
         z-index: 15;
-    background-color: #f3fffc;
-    width:100%;
-    padding: 30px;
-    top:0;
-    }
+        background-color: #f3fffc;
+        width:100%;
+        top:0; }
    
     .back {
         max-width:80%;
@@ -94,5 +92,5 @@
     </div>
 </footer>
 <div class="year-banner">
-     <small>copyright 2019 - Bientôt 2020</small>
+     <small>copyright 2020</small>
 </div>

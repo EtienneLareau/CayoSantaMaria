@@ -24,12 +24,12 @@
               text-transform: uppercase ;
               width:95%; }
     
-    h2 {    font-family: gill-sans-nova-shadowed-outl, sans-serif;
+    h2 {    
             font-style: normal;
-            text-shadow: 1px 1px 4px rgb(18, 97, 74),
-                         }
+            text-shadow: 4px 4px 8px rgb(18, 97, 74);
+        }
 
-    h2 {  font-size: 12vw;
+    h2 {  font-size: 11vw;
           color:#86fadb;
           font-weight: 400;
           padding:0;
@@ -39,7 +39,7 @@
 
     @media only screen and (max-width:700px){
         
-        h2 { font-size:15vw;
+        h2 { font-size:11vw;
              line-height:1.1 }
 
         .container { background: url('/images/covFoilS4W.jpg') center top no-repeat;
@@ -54,7 +54,6 @@
         background: rgba(0, 0, 0, 0.112);
         /* background: #86fadbe9; */
     }
-
 </style>
 
 <Register />
@@ -62,7 +61,7 @@
     <div class="container">
         <div class="dark"></div>
         <div class="banner">
-            <h2>Foil Kitecamp</h2>
+            <h2>Foil<br>Kitecamp</h2>
             <!-- <p>Du <span style="font-size:1.5em">11</span> au <span style="font-size:1.5em">17</span> janvier 2020</p> -->
         </div>
             <RotateWhite />
