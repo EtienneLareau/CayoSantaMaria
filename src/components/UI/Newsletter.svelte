@@ -18,6 +18,7 @@
     $: console.log(shootMe);
 
 
+    
 </script>
 
 
@@ -26,7 +27,7 @@
         position: relative;
         z-index: 20;
         width: 100% ;
-        background-color: #f3fffc;
+        background-color: white;
     }
 
     .block {
@@ -40,7 +41,7 @@
         font-weight: 300;
         font-style: normal;
         margin: 0 0 60px;
-        font-size: 1.4rem ;
+        font-size: 1.3rem ;
         line-height: 1.2;
         cursor: pointer ;
     }
@@ -49,7 +50,7 @@
         font-family: bicyclette, sans-serif;
         font-weight: 300;
         font-style: normal;
-        font-size: 1.5rem ;
+        font-size: 1.4rem ;
         margin:0;
     }
 
@@ -64,7 +65,6 @@
         padding-top:20px;
         font-size: 3.2rem;
         line-height: 1;
-        text-shadow:1px 1px 2px #86fadb;
     }
 
     h2, p {text-align: center ;}
@@ -172,4 +172,5 @@
         </form>
     </div>
 </section>
+
 

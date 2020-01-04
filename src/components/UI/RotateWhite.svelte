@@ -76,8 +76,8 @@
     .mid-text {
         position:fixed;
         z-index: 5;
-        right:145px;
-        bottom:46px;
+        right:147px;
+        bottom:50px;
         text-align: center;
         color: white;
         font-size:1.7rem;

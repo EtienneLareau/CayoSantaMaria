@@ -2,7 +2,7 @@
     footer {
         position: relative;
         z-index: 15;
-        background-color: #f3fffc;
+        background-color: white;
         width:100%;
         top:0; }
    
@@ -15,7 +15,11 @@
     .grido {
         display:grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-gap: 30px;
+        grid-gap: 30px 20px;
+    }
+
+    .grido > div {
+        margin:0 auto;
     }
 
     h2 {
@@ -26,13 +30,9 @@
         text-shadow: 1px 1px 2px #86fadb;
     }
 
-    .img-cont {
-        max-width:250px;
-    }
-
     img {
-        width:100%;
-        max-height:auto;
+        
+        max-height:30px;
         margin:0 auto;
     }
 

@@ -33,7 +33,8 @@
          font-size: 5.3vw ;
          padding: 1em 20px 0;
          margin:0;
-         text-shadow: 1px 1px 3px #86fadb }
+         /* text-shadow: 1px 1px 3px #86fadb  */
+        }
 
     p { 
         font-style: normal;
@@ -72,7 +73,7 @@
                 forfaits élaborés spécifiquement pour vous. 
                 Ce voyage dédié KiteFoil s'adresse aux pratiquants de tous les niveaux, du débutant à l'expert.
                 <br><br>
-                Nos instructeurs fort qualifiés en la matière faciliteront 
+                Nos instructeurs qualifiés faciliteront 
                 grandement votre apprentissage. Vous bénéficierez du meilleur équipement 
                 disponible sur le marché ainsi que des dernières innovations techniques en matière 
                 d'enseignement comme des radios intégrées (2ways) à votre casque permettant un échange 

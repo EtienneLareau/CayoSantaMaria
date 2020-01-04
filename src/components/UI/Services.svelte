@@ -106,30 +106,30 @@
     <div class="grid-pack">
         <div class="grid-block">
             <div class="grid-cont">
-                <img data-src="shopping-bag-heart.png" class="lazyload" alt="">
+                <img src="shopping-bag-heart.png" alt="">
                 <p>D'une Suite Junior dans notre zone VIP KITE CAMPS en bordure de mer, vous permettant ainsi d'avoir un accès direct à la plage.</p>
             </div>
             <div class="grid-cont">
-                <img data-src="love-boat.png" class="lazyload" alt="">
+                <img src="love-boat.png" alt="">
                 <p>Vous pourrez sélectionner votre type de chambre - 2 lits doubles ou 1 lit king - et au rez-de-chaussée ou à l'étage.</p>
             </div>
             <div class="grid-cont">
-                <img data-src="office-work-wireless.png" class="lazyload" alt="">
+                <img src="office-work-wireless.png" alt="">
                 <p>La sélection de votre siège dans l'avion est disponible au cout de 45$ (aller & retour)</p>
             </div>
         </div>
         
         <div class="grid-block">
             <div class="grid-cont">
-                <img data-src="show-hat-magician-1.png" class="lazyload" alt="">
+                <img src="show-hat-magician-1.png" alt="">
                 <p>Un bagage suplémentaire de kitesurf de 20kg sans aucuns frais additionnel.</p>
             </div>
             <div class="grid-cont">
-                <img data-src="whale-body.svg" class="lazyload" alt="">
+                <img src="whale-body.svg" alt="">
                 <p>Le Transfert aller-retour en autocar pour vous avec votre bagages de kite.</p>
             </div>
             <div class="grid-cont">
-                <img data-src="nautic-sports-sailing-person.svg" class="lazyload" alt="">
+                <img src="nautic-sports-sailing-person.svg" alt="">
                 <p>Les Taxes de voyage, taxes d'aéroport, visa cubain, taxes canadienne, taxe du fond d'indemnisation (OPC) des voyageurs du Québec ainsi que les frais de services</p>
             </div>
         </div>

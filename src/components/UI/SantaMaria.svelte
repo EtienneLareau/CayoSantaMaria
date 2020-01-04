@@ -54,7 +54,8 @@
             font-family: bicyclette, sans-serif;
             font-weight: 300;
             font-style: normal;
-            padding: 0 1em;
+            padding: 0 25px;
+            line-height:1.3;
             font-size:1.4rem;
         }
       
@@ -70,10 +71,10 @@
 
     .start {
         margin-top:-40px;
-        background-image: url('/images/coursLight.jpeg');
+        /* background-image: url('/images/coursLight.jpeg');
         background-position: center;
         background-repeat: no-repeat ;
-        background-size: cover;
+        background-size: cover; */
         position: relative;
         z-index: 15;
     }
@@ -89,7 +90,7 @@
     h3 {
         font-size:3.2rem;
         text-shadow: 1px 1px 3px #86fadb;
-        padding:20px 0 0;
+        padding:0px 0 0;
         margin:0;
     }
 
